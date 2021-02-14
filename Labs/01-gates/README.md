@@ -1,5 +1,5 @@
 
-<img src="https://github.com/Marxs31/Digital-electronics-1-/blob/master/Labs/01-gates/scheme.png" />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/obrazky/F.png" />
 
 | **A** | **B** |**C** |**F** |**F NAND**|**F NOR**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
