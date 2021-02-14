@@ -1,5 +1,5 @@
 
-https://github.com/xalkan00/Digital-electronics-1/blob/main/obrazky/A.jpeg
+https://github.com/xalkan00/Digital-electronics-1/blob/main/obrazky/F.png
 | **A** | **B** |**C** |**F** |**F NAND**|**F NOR**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 | 1 | 1 |
