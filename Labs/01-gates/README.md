@@ -43,7 +43,7 @@ Signal Fnor
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Fnor.png" />
 
 
-[xalkan00, De Morgane's Lawe, EDA Playground](https://www.edaplayground.com/x/KM47)
+[xalkan00,Verification of De Morgan's laws of function f(c,b,a), EDA Playground](https://www.edaplayground.com/x/KM47)
 
 ### Poznamka
 když jsem chtel zobrazit tři signaly v jednom simulaci , tak se mi nic neukazalo, musel jsem zobrazit signal Fnor zvlašt 
@@ -81,4 +81,4 @@ begin
 end architecture dataflow;
 ```
 
-[xalkan00, De Morgane's Lawe, EDA Playground] (https://www.edaplayground.com/x/en6_)
+[xalkan00, Verification of Distributive laws, EDA Playground](https://www.edaplayground.com/x/en6)
