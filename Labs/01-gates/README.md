@@ -84,7 +84,7 @@ begin
 end architecture dataflow;
 ```
 
-[xalkan00, Verification of Distributive laws, EDA Playground](https://www.edaplayground.com/x/en6)
+[xalkan00, Verification of Distributive laws, EDA Playground](https://www.edaplayground.com/x/HJPz)
 
 ### Poznamka
 nevim proc se mi signali nezobrazi 
