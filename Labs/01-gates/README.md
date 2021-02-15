@@ -5,7 +5,8 @@
 
 ### De Morgan's Laws
 
-```VHDLarchitecture dataflow of gates is
+```VHDL
+architecture dataflow of gates is
 begin
  
   
