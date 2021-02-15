@@ -4,6 +4,7 @@
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/F.png" /> 
 
 ### De Morgan's Laws
+#### VHDL code
 
 ```VHDL
 architecture dataflow of gates is
