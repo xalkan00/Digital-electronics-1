@@ -50,4 +50,34 @@ když jsem chtel zobrazit tři signaly v jednom simulaci , tak se mi nic neukaza
 
 
 
+``` VHDL
+entity gates is
+    port(           -- Vstupni data
+        x_i    : in  std_logic;         
+        y_i    : in  std_logic;         
+        z_i    : in  std_logic;    
+        			-- vystupni data
+        f1_o    : out std_logic;
+        f2_o    : out std_logic;
+        f3_o    : out std_logic;
+        f4_o    : out std_logic
+       
+    );
+end entity gates;
+
+------------------------------------------------------------------------
+-- Architecture body for basic gates
+------------------------------------------------------------------------
+architecture dataflow of gates is
+begin
+ 
+  
+  f1_o <= ((x_i and y_i) or (x_i and z_i));
+  f2_o <= (x_i and (y_i or Z_i));
+  f3_o <= ((x_i or y_i) and (x_i or z_i));
+  f4_o <= (x_i or (y_i and z_i));
+
+end architecture dataflow;
+```
+
 
