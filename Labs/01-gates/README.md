@@ -49,6 +49,7 @@ Signal Fnor
 když jsem chtel zobrazit tři signaly v jednom simulaci , tak se mi nic neukazalo, musel jsem zobrazit signal Fnor zvlašt 
 
 ### Verification of Distributive laws.
+#### VHDL code
 
 ``` VHDL
 entity gates is
