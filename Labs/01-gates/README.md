@@ -88,4 +88,4 @@ end architecture dataflow;
 
 ### Poznamka
 nevim proc se mi signali nezobrazi a proto nemam simulace, furt mi zobrazi teto chybu :)
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/problem.png"/>
+ <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/problem.png" />
