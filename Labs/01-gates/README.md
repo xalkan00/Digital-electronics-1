@@ -1,7 +1,7 @@
 # 01-gates
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
 
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/obrazky/F.png" />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Fnor.png" /> 
 
 ### De Morgan's Laws
 
