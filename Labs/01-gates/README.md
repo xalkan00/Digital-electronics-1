@@ -87,4 +87,4 @@ end architecture dataflow;
 [xalkan00, Verification of Distributive laws, EDA Playground](https://www.edaplayground.com/x/HJPz)
 
 ### Poznamka
-nevim proc se mi signali nezobrazi 
+nevim proc se mi signali nezobrazi a proto nemam simulace :) 
