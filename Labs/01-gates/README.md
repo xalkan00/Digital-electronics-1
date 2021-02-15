@@ -3,7 +3,7 @@
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/F.png" /> 
 
-### De Morgan's Laws
+### Verification of De Morgan's laws of function f(c,b,a).
 #### VHDL code
 
 ```VHDL
@@ -48,7 +48,7 @@ Signal Fnor
 ### Poznamka
 když jsem chtel zobrazit tři signaly v jednom simulaci , tak se mi nic neukazalo, musel jsem zobrazit signal Fnor zvlašt 
 
-
+### Verification of Distributive laws.
 
 ``` VHDL
 entity gates is
