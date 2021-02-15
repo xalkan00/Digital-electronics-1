@@ -35,10 +35,10 @@ end architecture dataflow;
 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 ### VHDL simulatione 
-funkce F, Fnand
+Signal F, Fnand
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/F%2C%20Fnand.png" /> 
 
- funkce Fnor
+Signal Fnor
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Fnor.png" />
 
 
