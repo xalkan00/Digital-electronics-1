@@ -43,7 +43,7 @@ Signal Fnor
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Fnor.png" />
 
 
-[EDA Playground] https://www.edaplayground.com/x/KM47
+[xalkan00, De Morgane's Lawe, EDA Playground](https://www.edaplayground.com/x/KM47)
 
 ### Poznamka
 když jsem chtel zobrazit tři signaly v jednom simulaci , tak se mi nic neukazalo, musel jsem zobrazit signal Fnor zvlašt 
