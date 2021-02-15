@@ -49,10 +49,10 @@ Signal Fnor
 když jsem chtel zobrazit tři signaly v jednom simulaci , tak se mi nic neukazalo, musel jsem zobrazit signal Fnor zvlašt 
 
 ### Verification of Distributive laws.
-#### VHDL code
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/x.png"/>
 
+#### VHDL code
 
 ``` VHDL
 entity gates is
@@ -85,3 +85,6 @@ end architecture dataflow;
 ```
 
 [xalkan00, Verification of Distributive laws, EDA Playground](https://www.edaplayground.com/x/en6)
+
+### Poznamka
+nevim proc se mi signali nezobrazi 
