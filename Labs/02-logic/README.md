@@ -1,4 +1,4 @@
-# Lab 2: Introduction to Xilinx ISE
+# Lab 2: Combinational logic
 
 #### Contents
 
@@ -8,13 +8,24 @@
 
 ## Lab prerequisites
 
-1. *Digital* or *Binary comparator* compares the digital signals A, B presented at input terminal and produce outputs depending upon the condition of those inputs. Complete the truth table for 1-bit *Identity comparator* (A=B), and two *Magnitude comparators* (A>B, A<B). Note 1 represents true, 0 false.
+Digital or Binary comparator compares the digital signals A, B presented at input terminal and produce outputs depending upon the condition of those inputs. Complete the truth table for 2-bit Identity comparator (B equals A), and two Magnitude comparators (B is greater than A, B is less than A). Note that, such a digital device has four inputs and three outputs/functions.
 
-    | **A** | **B** | **A<B** | **A=B** | **A>B** |
-    | :-: | :-: | :-: | :-: | :-: |
-    | 0 | 0 | 0 | 1 | 0 |
-    | 0 | 1 | 0 | 0 | 1 |
-    | 1 | 0 | 1 | 0 | 0 |
-    | 1 | 1 | 0 | 1 | 0 |
-
+   Dec. equivalent | **A[1;0]** | **B[1;0]** | **A<B** | **A=B** | **A>B** |
+   | | :-: | :-: | :-: | :-: | :-: |
+   | | 0 | 0 | 0 | 1 | 0 |
+   | | 0 | 1 | 0 | 0 | 1 |
+   | | 1 | 0 | 1 | 0 | 0 |
+   | | 1 | 1 | 0 | 1 | 0 |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   | |  |  |  |  |  |  |
+   
   
