@@ -37,7 +37,7 @@ end architecture dataflow;
 
 ### VHDL simulatione 
 Signal F, Fnand
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/F%2C%20Fnand.png" /> 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Snímek%20obrazovky%202021-02-16%20105325.png" /> 
 
 Signal Fnor
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Fnor.png" />
