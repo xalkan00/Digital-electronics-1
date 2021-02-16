@@ -52,12 +52,14 @@ end architecture dataflow;
 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 ### VHDL simulatione 
-Signal F, Fnand, Fnor
+
+[xalkan00,Verification of De Morgan's laws of function f(c,b,a), EDA Playground](https://www.edaplayground.com/x/LstE)
+
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Snímek%20obrazovky%202021-02-16%20105325.png" /> 
 
 
 
-[xalkan00,Verification of De Morgan's laws of function f(c,b,a), EDA Playground](https://www.edaplayground.com/x/LstE)
+
  
 
 ### Verification of Distributive laws.
@@ -98,3 +100,4 @@ end architecture dataflow;
 
 [xalkan00, Verification of Distributive laws, EDA Playground](https://www.edaplayground.com/x/HJPz)
 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/fx.png" />
