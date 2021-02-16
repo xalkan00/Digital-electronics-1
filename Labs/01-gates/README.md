@@ -58,9 +58,7 @@ Signal F, Fnand, Fnor
 
 
 [xalkan00,Verification of De Morgan's laws of function f(c,b,a), EDA Playground](https://www.edaplayground.com/x/LstE)
-
-### Poznamka
-když jsem chtel zobrazit tři signaly v jednom simulaci , tak se mi nic neukazalo, musel jsem zobrazit signal Fnor zvlašt 
+ 
 
 ### Verification of Distributive laws.
 
@@ -100,6 +98,3 @@ end architecture dataflow;
 
 [xalkan00, Verification of Distributive laws, EDA Playground](https://www.edaplayground.com/x/HJPz)
 
-### Poznamka
-nevim proc se mi signali nezobrazi a proto nemam simulace, furt mi zobrazi teto chybu :)
- <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/problem.png" />
