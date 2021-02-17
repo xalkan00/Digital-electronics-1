@@ -21,6 +21,7 @@
 |14| 1 1 | 1 0 | 1 | 0 | 0 | 
 |15| 1 1 | 1 1 | 0 | 1 | 0 |   
 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/02-logic/image/Sop-Pos.png" />
 
 ## K-Map (B is greater than A)
 | **B[1:0]\A[1:0]** | **00** | **01** | **11** | **10** |
