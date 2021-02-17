@@ -29,3 +29,16 @@ Digital or Binary comparator compares the digital signals A, B presented at inpu
 | 1 1 | 1 0 | 1 | 0 | 0 | 
 | 1 1 | 1 1 | 0 | 1 | 0 |   
   
+####equals-Sop
+|**B[1:0]\A[1:0]**| 0 0 | 0 1 | 1 1 | 1 0 |
+| 0 0 | 1 |  |  |  |
+| 0 1 |  | 1 |  |  |
+| 1 1 |  |  | 1 |  |
+| 1 0 |  |  |  | 1 |
+
+####equals-Sop
+|**B[1:0]\A[1:0]**| 0 0 | 0 1 | 1 1 | 1 0 |
+| 0 0 | 1 |  |  |  |
+| 0 1 |  | 1 |  |  |
+| 1 1 |  |  | 1 |  |
+| 1 0 |  |  |  | 1 |
