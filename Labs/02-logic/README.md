@@ -42,3 +42,10 @@ Digital or Binary comparator compares the digital signals A, B presented at inpu
 | 01 | 0 | 0 |  |  |
 | 11 | 0 | 0 | 0 | 0 |
 | 10 | 0 | 0 |  | 0 |
+
+| **B1,B0\A1,A0** | **00** | **01** | **11** | **10** |
+| :-: | :-: | :-: | :-: | :-: |
+| 00 | 1 |  |  |  |
+| 01 |  | 1 |  |  |
+| 11 |  |  | 1 |  |
+| 10 |  |  |  | 1 |
