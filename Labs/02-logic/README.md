@@ -46,3 +46,5 @@
 | 01 |  | 1 |  |  |
 | 11 |  |  | 1 |  |
 | 10 |  |  |  | 1 |
+
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/02-logic/image/K-map.png" />
