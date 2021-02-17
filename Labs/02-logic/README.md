@@ -48,3 +48,7 @@
 | 10 |  |  |  | 1 |
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/02-logic/image/K-map.png" />
+
+## VHDL code (design.vhd).
+
+## VHDL testbench (testbench.vhd.
