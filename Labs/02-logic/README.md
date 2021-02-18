@@ -239,3 +239,8 @@ begin
 end architecture testbench;
 
 ```
+## Error
+<img src=" https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/02-logic/image/error.png"/>
+
+## Simulatien
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/02-logic/image/4-bit.png"/>
