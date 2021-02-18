@@ -244,3 +244,5 @@ end architecture testbench;
 
 ## Simulatien
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/02-logic/image/4-bit.png"/>
+
+[EDA Playground](https://www.edaplayground.com/x/8Rem)
