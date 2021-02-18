@@ -1,6 +1,6 @@
 # Lab 2: Combinational logic
 
-
+[xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
 
 | |**B[1:0]**|**A[1:0]**|**B>A**|**B=A**|**B<A**|
 | :-: | :-: | :-: | :-: | :-: | :-: |
