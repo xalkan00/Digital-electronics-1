@@ -116,7 +116,7 @@ end architecture testbench;
 
 ## Postup vytvařeni projek ve vivadu
 Pro vytvoření nového projektu ve Vivadu, postupujeme následovně: 
-File->Projet->New
+File-> Projet-> New
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/1.png" /> 
 
 Klikneme na Next->
@@ -128,19 +128,21 @@ Vyplníme Project name a location->
 Necháme zvolený RTL project->
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/4.png" />
 
-zvolime v Target language "VHDL", Simulator language "VHDL", Create File: zvolime file type "VHDL" a vyplníme File name ->OK->Next
+zvolime v Target language "VHDL", Simulator language "VHDL", Create File: zvolime file type "VHDL" a vyplníme File name -> OK-> Next
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/5.png" />
 
 Klikneme na Next->
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/6.png" />
 
-Překlikneme na záložku Boards a zvolíme vhodnou desku->Next->Finish
+Překlikneme na záložku Boards a zvolíme vhodnou desku-> Next->Finish
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/7.png" />
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/8.png" />
 
-Je třeba přidat si test bench následovně: File->Add Source->
+Je třeba přidat si test bench následovně: File-> Add Source->
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/11.png" />
 
 vybereme-> Add or create simulation sources-> Next
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/12.png" />
+
+Klikneme na-> Create Files-> Vyplníme File name-> OK-> Finish
