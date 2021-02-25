@@ -139,6 +139,7 @@ Překlikneme na záložku Boards a zvolíme vhodnou desku->Next->Finish
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/8.png" />
 
 Je třeba přidat si test bench následovně: File->Add Source->
+
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/11.png" />
 
 vybereme-> Add or create simulation sources-> Next
