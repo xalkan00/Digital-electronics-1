@@ -111,8 +111,8 @@ begin
 
 end architecture testbench;
 ```
-
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Snímek%20obrazovky%202021-02-16%20105325.png" /> 
+## Simulace
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/simulace.png" /> 
 
 
 
