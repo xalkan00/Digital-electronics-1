@@ -1,16 +1,5 @@
 # 03-vivado
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
-
-|**SW1 => a_i[0]**| |**SW1 => a_i[0]**| |**SW1 => a_i[0]**| 
-| SW1 => a_i[1] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
-| SW1 => b_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
-| SW1 => b_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
-| SW1 => c_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
-| SW1 => c_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
-| SW1 => d_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
-| SW1 => d_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
-| SW1 => a_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
-
  
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/mux.png" /> 
 
