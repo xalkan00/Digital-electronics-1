@@ -38,33 +38,78 @@ end architecture Behavioral;
 
 
 ``` VHDL
-entity gates is
-    port(           -- Vstupni data
-        x_i    : in  std_logic;         
-        y_i    : in  std_logic;         
-        z_i    : in  std_logic;    
-        			-- vystupni data
-        f1_o    : out std_logic;
-        f2_o    : out std_logic;
-        f3_o    : out std_logic;
-        f4_o    : out std_logic
-       
-    );
-end entity gates;
+library ieee;
+use ieee.std_logic_1164.all;
 
 ------------------------------------------------------------------------
--- Architecture body for basic gates
+-- Entity declaration for testbench
 ------------------------------------------------------------------------
-architecture dataflow of gates is
+entity tb_mux_2bit_4to1 is
+    -- Entity of testbench is always empty
+end entity tb_mux_2bit_4to1;
+
+------------------------------------------------------------------------
+-- Architecture body for testbench
+------------------------------------------------------------------------
+architecture testbench of tb_mux_2bit_4to1 is
+
+    -- Local signals
+    signal s_a       : std_logic_vector(2 - 1 downto 0);
+    signal s_b       : std_logic_vector(2 - 1 downto 0);
+    signal s_c       : std_logic_vector(2 - 1 downto 0);
+    signal s_d       : std_logic_vector(2 - 1 downto 0);
+    signal s_sel     : std_logic_vector(2 - 1 downto 0);
+    signal s_f       : std_logic_vector(2 - 1 downto 0);
+
 begin
- 
-  
-  f1_o <= ((x_i and y_i) or (x_i and z_i));
-  f2_o <= (x_i and (y_i or Z_i));
-  f3_o <= ((x_i or y_i) and (x_i or z_i));
-  f4_o <= (x_i or (y_i and z_i));
+    uut_comparator_2bit : entity work.mux_2bit_4to1
+        port map(
+            a_i           => s_a,
+            b_i           => s_b,
+            c_i           => s_c,
+            d_i           => s_d,
+            sel_i         => s_sel,
+            f_o           => s_f
+        );
 
-end architecture dataflow;
+    --------------------------------------------------------------------
+    -- Data generation process
+    --------------------------------------------------------------------
+    p_stimulus : process
+    begin
+        -- Report a note at the begining of stimulus process
+        report "Stimulus process started" severity note;
+
+        s_a <= "00" ; 
+        s_b <= "00" ; 
+        s_c <= "00" ; 
+        s_d <= "00" ;      
+        s_sel <= "01" ; wait for 100 ns;  
+        s_sel <= "10" ; wait for 100 ns;  
+        s_sel <= "11" ; wait for 100 ns;  
+        
+        s_a <= "10" ; 
+        s_b <= "00" ; 
+        s_c <= "10" ; 
+        s_d <= "11" ;        
+        s_sel <= "00" ; wait for 100 ns;  
+        s_sel <= "01" ; wait for 100 ns;  
+          
+        s_a <= "01" ; 
+        s_b <= "11" ; 
+        s_c <= "10" ; 
+        s_d <= "10" ; 
+        s_sel <= "00" ; wait for 100 ns;  
+        s_sel <= "01" ; wait for 100 ns;
+        s_sel <= "10" ; wait for 100 ns; 
+        s_sel <= "11" ; wait for 100 ns;   
+        
+        -- Report a note at the end of stimulus process
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+
+end architecture testbench;
 ```
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Snímek%20obrazovky%202021-02-16%20105325.png" /> 
