@@ -1,7 +1,7 @@
 # 03-vivado
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
 
-| SW1 => a_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
+| **SW1 => a_i[0]** | | **SW1 => a_i[0]** | | **SW1 => a_i[0]** | 
 | SW1 => a_i[1] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
 | SW1 => b_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
 | SW1 => b_i[0] | | SW1 => a_i[0] | | SW1 => a_i[0] | 
