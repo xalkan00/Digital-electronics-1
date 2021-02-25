@@ -114,4 +114,11 @@ end architecture testbench;
 ## Simulace
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/simulace.png" /> 
 
+## Postup vytvařeni projek ve vivadu
+Pro vytvoření nového projektu ve Vivadu, postupujeme následovně: 
+File->Projet->New
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/1.png" /> 
 
+Klikneme na Next->
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/2.png" /> 
+Vyplníme Project name a location->Necháme zvolený RTL project->Target a Simulator language: VHDL->Create File->vyplníme File name->OK->Next->Next->Překlikneme na záložku Boards a zvolíme vhodnou desku->Next->Finish
