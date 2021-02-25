@@ -1,7 +1,7 @@
-# 01-gates
+# 03-vivado
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
 
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/F.png" /> 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/mux.png" /> 
 
 ### Verification of De Morgan's laws of function f(c,b,a).
 #### VHDL code
