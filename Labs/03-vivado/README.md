@@ -3,52 +3,39 @@
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/mux.png" /> 
 
-### Verification of De Morgan's laws of function f(c,b,a).
-#### VHDL code
-
+## VHDL
 ```VHDL
-entity gates is
-    port(           -- Vstupni data
-        a_i    : in  std_logic;         
-        b_i    : in  std_logic;         
-        c_i    : in  std_logic;    
-        			-- vystupni data
-        f_o    : out std_logic;
-        fnand_o: out std_logic;
-        fnor_o : out std_logic
+library ieee;
+use ieee.std_logic_1164.all;
+
+------------------------------------------------------------------------
+-- Entity declaration for mux_2bit_4to1
+------------------------------------------------------------------------
+entity mux_2bit_4to1 is
+    port(
+        a_i           : in  std_logic_vector(2 - 1 downto 0);
+		b_i           : in  std_logic_vector(2 - 1 downto 0);
+		c_i           : in  std_logic_vector(2 - 1 downto 0);
+		d_i           : in  std_logic_vector(2 - 1 downto 0);
+		sel_i         : in  std_logic_vector(2 - 1 downto 0);
+        f_o           : out std_logic_vector(2 - 1 downto 0)     
     );
-end entity gates;
+end entity mux_2bit_4to1;
 
 ------------------------------------------------------------------------
--- Architecture body for basic gates
+-- Architecture body for mux_2bit_4to1
 ------------------------------------------------------------------------
-architecture dataflow of gates is
+architecture Behavioral of mux_2bit_4to1 is
 begin
- 
-  
-  f_o <= (a_i and (not b_i)) or ((not b_i) and (not c_i));
-  
-  fnand_o <= not(not(a_i and (not b_i)) and (not((not b_i) and not(c_i))));
- 
-  fnor_o <= (not((not (a_i) nor b_i) nor (b_i nor c_i)));
+       f_o <= a_i when (sel_i = "00" ) else
+              b_i when (sel_i = "01" ) else
+              c_i when (sel_i = "10" ) else
+              d_i;
 
-end architecture dataflow;
+end architecture Behavioral;
 
 ```
 
-
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Snímek%20obrazovky%202021-02-16%20105325.png" /> 
-
-
-
-
- 
-
-### Verification of Distributive laws.
-
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/x.png"/>
-
-#### VHDL code
 
 ``` VHDL
 entity gates is
@@ -79,6 +66,18 @@ begin
 
 end architecture dataflow;
 ```
+
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/Snímek%20obrazovky%202021-02-16%20105325.png" /> 
+
+
+
+
+ 
+
+### Verification of Distributive laws.
+
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/x.png"/>
+
 
 
 
