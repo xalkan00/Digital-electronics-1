@@ -146,3 +146,10 @@ vybereme-> Add or create simulation sources-> Next
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/12.png" />
 
 Klikneme na-> Create Files-> Vyplníme File name-> OK-> Finish
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/13.png" />
+
+Pro spuštení simulace uložíme změny a pomocí okna: Flow -> Run Simulation -> Run Behavioral Simulation
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/14.png" />
+
+Pro přidání XDC souboru klikneme na  File-> Add Source. vybereme -> Add or create constrains-> Create File-> Vyplníme File name-> OK-> Finish
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/15.png" />
