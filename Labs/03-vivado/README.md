@@ -115,15 +115,3 @@ end architecture testbench;
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/simulace.png" /> 
 
 
-
-
- 
-
-### Verification of Distributive laws.
-
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/x.png"/>
-
-
-
-
-<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/01-gates/Obrazky/fx.png" />
