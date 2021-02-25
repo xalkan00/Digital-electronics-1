@@ -43,8 +43,7 @@ begin
         s_a <= "00" ; 
         s_b <= "00" ; 
         s_c <= "00" ; 
-        s_d <= "00" ; 
-       
+        s_d <= "00" ;      
         s_sel <= "01" ; wait for 100 ns;  
         s_sel <= "10" ; wait for 100 ns;  
         s_sel <= "11" ; wait for 100 ns;  
@@ -52,8 +51,7 @@ begin
         s_a <= "10" ; 
         s_b <= "00" ; 
         s_c <= "10" ; 
-        s_d <= "11" ; 
-        
+        s_d <= "11" ;        
         s_sel <= "00" ; wait for 100 ns;  
         s_sel <= "01" ; wait for 100 ns;  
           
@@ -65,14 +63,7 @@ begin
         s_sel <= "01" ; wait for 100 ns;
         s_sel <= "10" ; wait for 100 ns; 
         s_sel <= "11" ; wait for 100 ns;   
-
-       
-
-
-
         
-
-
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
         wait;
