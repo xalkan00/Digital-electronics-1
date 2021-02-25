@@ -121,4 +121,17 @@ File->Projet->New
 
 Klikneme na Next->
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/2.png" /> 
-Vyplníme Project name a location->Necháme zvolený RTL project->Target a Simulator language: VHDL->Create File->vyplníme File name->OK->Next->Next->Překlikneme na záložku Boards a zvolíme vhodnou desku->Next->Finish
+
+Vyplníme Project name a location->
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/3.png" />
+
+Necháme zvolený RTL project->
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/4.png" />
+
+zvolime v Target language "VHDL", Simulator language "VHDL", Create File: zvolime file type "VHDL" a vyplníme File name ->OK->Next
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/5.png" />
+
+Klikneme na Next->
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/6.png" />
+
+->Next->Překlikneme na záložku Boards a zvolíme vhodnou desku->Next->Finish
