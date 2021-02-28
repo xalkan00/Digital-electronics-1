@@ -1,7 +1,7 @@
 # 01-segment
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
 
-## Prerequisites
+## 7-segment display
 
 | **Hex** | **Input** | **a** | **b** | **c** | **d** | **e** | **f** | **g** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
