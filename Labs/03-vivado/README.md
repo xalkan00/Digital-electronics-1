@@ -3,24 +3,24 @@
  
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/mux.png" /> 
 
-| **LED** | **Connection** | **Switch** | **Connection** | 
+| **Switch** | **Connection** | **LED** | **Connection** | 
 | :-: | :-: | :-: | :-: |
-| SW0 | a_i[0] | LED0 | J15 |
-| SW1 | a_i[1] | LED1 | L16 |
-| SW2 | b_i[0] | LED2 | M13 |
-| SW3 | b_i[1] | LED3 | R15 |
-| SW4 | c_i[0] | LED4 | R17 |
-| SW5 | c_i[1] | LED5 | T18 |
-| SW6 | d_i[0] | LED6 | U18 |
-| SW7 | d_i[1] | LED7 | R13 |
-| SW8 |   | LED8 | T8 |
-| SW9 |   | LED9 | U8 |
-| SW10 |   | LED10 | R16 |
-| SW11 |   | LED11 | T13 |
-| SW12 |   | LED12 | H6 |
-| SW13 |   | LED13 | U12 |
-| SW14 | sel_i[0]  | LED14 | U11 |
-| SW15 | sel_i[1]  | LED15 | V10 |
+| SW0 | a_i[0] | LED0 | f_o[0] |
+| SW1 | a_i[1] | LED1 | f_o[1] |
+| SW2 | b_i[0] | LED2 | X |
+| SW3 | b_i[1] | LED3 | X |
+| SW4 | c_i[0] | LED4 | X |
+| SW5 | c_i[1] | LED5 | X |
+| SW6 | d_i[0] | LED6 | X |
+| SW7 | d_i[1] | LED7 | X |
+| SW8 | X  | LED8 | X |
+| SW9 | X  | LED9 | X |
+| SW10 | X  | LED10 | X |
+| SW11 | X  | LED11 | X |
+| SW12 | X  | LED12 | X |
+| SW13 | X  | LED13 | X |
+| SW14 | sel_i[0]  | LED14 | X |
+| SW15 | sel_i[1]  | LED15 | X |
 
 
 ## VHDL
