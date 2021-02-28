@@ -2,6 +2,7 @@
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
  
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/mux.png" /> 
+
 | **LED** | **Connection** | **Switch** | **Connection** | 
 | :-: | :-: | :-: | :-: |
 | LED0 | H17 | SW0 | J15 |
