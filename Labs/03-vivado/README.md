@@ -4,6 +4,7 @@
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/mux.png" /> 
 
 ## VHDL
+### mux_2bit_4to1
 ```VHDL
 library ieee;
 use ieee.std_logic_1164.all;
@@ -35,7 +36,7 @@ begin
 end architecture Behavioral;
 
 ```
-
+### tb_mux_2bit_4to1
 
 ``` VHDL
 library ieee;
