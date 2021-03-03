@@ -6,7 +6,7 @@
 
 
 
-#### 1.2 Decoder truth table for common anode 7-segment display.
+#### 1.2 - Decoder truth table for common anode 7-segment display.
 
 | **Hex** | **Input** | **a** | **b** | **c** | **d** | **e** | **f** | **g** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
