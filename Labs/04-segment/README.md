@@ -1,7 +1,12 @@
 # 01-segment
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
+## 1) Preparation tasks (done before the lab at home). Submit:
 
-## 7-segment display
+#### Figure or table with connection of 7-segment displays on Nexys A7 board,
+
+
+
+#### Decoder truth table for common anode 7-segment display.
 
 | **Hex** | **Input** | **a** | **b** | **c** | **d** | **e** | **f** | **g** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -22,7 +27,17 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-## Table for LEDs
+
+## 3) LED(7:4) indicators. Submit:
+   
+   Turn LED(4) on if input value is equal to 0, ie "0000"
+      
+   Turn LED(5) on if input value is greater than 9
+   
+   Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
+    
+   Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
+    
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 |  |  |  |  |
