@@ -29,18 +29,18 @@
 
 ## 2) Seven-segment display decoder. Submit:
 
- #### 2.1 Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting.
+ #### 2.1 - Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting.
  
- #### 2.2 Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting.
+ #### 2.2 - Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting.
  
- #### 2.3 Screenshot with simulated time waveforms; always display all inputs and outputs.
+ #### 2.3 - Screenshot with simulated time waveforms; always display all inputs and outputs.
  
- #### 2.4 Listing of VHDL code from source file top.vhd with 7-segment module instantiation.
+ #### 2.4 - Listing of VHDL code from source file top.vhd with 7-segment module instantiation.
  
 
 ## 3) LED(7:4) indicators. Submit:
 
-#### 3.1 Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting,
+#### 3.1 - Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting,
 
    Turn LED(4) on if input value is equal to 0, ie "0000"
       
@@ -69,6 +69,6 @@
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
 
-#### 3.2 Screenshot with simulated time waveforms; always display all inputs and outputs.
+#### 3.2 - Screenshot with simulated time waveforms; always display all inputs and outputs.
 
 
