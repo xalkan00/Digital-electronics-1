@@ -177,5 +177,6 @@ vybereme -> Add or create constrains-> Create File-> Vyplníme File name-> OK-> 
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/03-vivado/image/15.png" />
 
-pak pujdem sem, a vybereme desku Nexys-A7-50T-Master, zkopirujeme ty cody a vložime to do našeho XDC souboru. 
-[Nexys-A7-50T-Master.xdc](https://github.com/Digilent/digilent-xdc)
+pak pujdem sem:[Nexys-A7-50T-Master.xdc](https://github.com/Digilent/digilent-xdc)
+ a vybereme desku Nexys-A7-50T-Master, zkopirujeme ty cody a vložime to do našeho XDC souboru. 
+
