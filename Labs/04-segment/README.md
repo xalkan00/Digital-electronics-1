@@ -4,7 +4,6 @@
 
 #### 1.1 Figure or table with connection of 7-segment displays on Nexys A7 board,
 
-<img src="   " />
 
 #### 1.2 - Decoder truth table for common anode 7-segment display.
 
@@ -121,6 +120,8 @@ end Behavioral;
     end process p_stimulus;
 ```
  #### 2.3 - Screenshot with simulated time waveforms; always display all inputs and outputs.
+ 
+ <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/04-segment/image/Snímek%20obrazovky%202021-03-03%20210440.png" />
  
  #### 2.4 - Listing of VHDL code from source file top.vhd with 7-segment module instantiation.
  
