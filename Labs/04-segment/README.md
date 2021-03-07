@@ -1,8 +1,26 @@
-# 01-segment
+# 04-segment
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
 ## 1) Preparation tasks (done before the lab at home). Submit:
 
 #### 1.1 Figure or table with connection of 7-segment displays on Nexys A7 board,
+
+| **port** | **=>** | **pin** |
+| :-: | :-: | :-: |
+| CA | => | T10 |
+| CB | => | R10 |
+| CC | => | K16 |
+| CD | => | K13 | 
+| CE | => | P15 |
+| CF | => | T11 |
+| CG | => | L18 |
+| AN[0] | => | J17 |
+| AN[1] | => | J18 |
+| AN[2] | => | T9 |
+| AN[3] | => | J14 | 
+| AN[4] | => | P14 |
+| AN[5] | => | T14 |
+| AN[6] | => | K2 |
+| AN[7] | => | U13 |
 
 
 #### 1.2 - Decoder truth table for common anode 7-segment display.
@@ -217,4 +235,5 @@ Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
 
 #### 3.2 - Screenshot with simulated time waveforms; always display all inputs and outputs.
 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/04-segment/image/Simulace%20LED.png" />
 
