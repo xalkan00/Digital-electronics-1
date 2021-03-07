@@ -4,6 +4,24 @@
 
 #### 1.1 Figure or table with connection of 7-segment displays on Nexys A7 board,
 
+| **port** | **=>** | **pin** |
+| :-: | :-: | :-: |
+| CA | => | T10 |
+| CB | => | R10 |
+| CC | => | K16 |
+| CD | => | K13 | 
+| CE | => | P15 |
+| CF | => | T11 |
+| CG | => | L18 |
+| AN[0] | => | J17 |
+| AN[1] | => | J18 |
+| AN[2] | => | T9 |
+| AN[3] | => | J14 | 
+| AN[4] | => | P14 |
+| AN[5] | => | T14 |
+| AN[6] | => | K2 |
+| AN[7] | => | U13 |
+
 
 #### 1.2 - Decoder truth table for common anode 7-segment display.
 
