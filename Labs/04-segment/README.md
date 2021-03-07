@@ -217,4 +217,5 @@ Turn LED(7) on if input value is a power of two, ie 1, 2, 4, or 8
 
 #### 3.2 - Screenshot with simulated time waveforms; always display all inputs and outputs.
 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/04-segment/image/Simulace%20LED.png" />
 
