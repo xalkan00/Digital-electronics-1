@@ -187,9 +187,8 @@ Turn LED(5) on if input value is greater than 9
    '1' when SW = "1110" else  --e
    '1' when SW = "1111" else  --f		
    '0';
-   
--- nebo     
--- LED(5)  <= '1' when (SW > "1001") else '0';
+        
+-- nebo  LED(5)  <= '1' when (SW > "1001") else '0';
  ```
 Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
 
