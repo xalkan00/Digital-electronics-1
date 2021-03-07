@@ -1,4 +1,4 @@
-# 01-segment
+# 04-segment
 [xalkan00-Digital-electronics-1](https://github.com/xalkan00/Digital-electronics-1)
 ## 1) Preparation tasks (done before the lab at home). Submit:
 
