@@ -19,7 +19,64 @@
 ## 2.Bidirectional counter. Submit:
 
 ### 2.1 Listing of VHDL code of the process p_cnt_up_down with syntax highlighting.
+
+``` VHDL
+    p_cnt_up_down : process(clk)
+    begin
+        if rising_edge(clk) then
+        
+            if (reset = '1') then               -- Synchronous reset
+                s_cnt_local <= (others => '0'); -- Clear all bits
+
+            elsif (en_i = '1') then       -- Test if counter is enabled
+
+
+                -- TEST COUNTER DIRECTION HERE
+                    if (cnt_up_i = '1') then
+        
+                        s_cnt_local <= s_cnt_local + 1;
+                    else
+                    
+                       s_cnt_local <= s_cnt_local - 1;
+               
+                    end if; 
+            end if;
+        end if;
+    end process p_cnt_up_down;
+ ```
+   
+  
 ### 2.2 Listing of VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd with syntax highlighting and asserts,
+
+```   VHDL
+ p_reset_gen : process
+    begin
+        s_reset <= '0';
+        wait for 12 ns;         -- v 12 ns p?epne na 1
+        s_reset <= '1';                 -- Reset activated
+        wait for 73 ns;         -- za 73 ns od 12 ns  p?epne na 0
+        s_reset <= '0';
+        wait;
+    end process p_reset_gen;
+
+    --------------------------------------------------------------------
+    -- Data generation process
+    --------------------------------------------------------------------
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+
+        s_en     <= '1';                -- Enable counting
+        s_cnt_up <= '1';
+        wait for 380 ns;                -- v 380 ns s_cnt_up konči a za 220 ns od 380 konči s_en
+        s_cnt_up <= '0';
+        wait for 220 ns;
+        s_en     <= '0';                -- Disable counting
+
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+ ```
 ### 2.3 Screenshot with simulated time waveforms; always display all inputs and outputs,
 
 
