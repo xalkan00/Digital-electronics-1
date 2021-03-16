@@ -115,7 +115,7 @@ entity top is
   );
 end top;
 
-architecture Behavioral of top is      -- vnit?ni signaly v tobu
+architecture Behavioral of top is      -- vnitřni signaly v tobu
     -- Internal clock enable
     signal s_en  : std_logic;
     -- Internal counter
