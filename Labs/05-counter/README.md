@@ -52,9 +52,9 @@
  p_reset_gen : process
     begin
         s_reset <= '0';
-        wait for 12 ns;         -- v 12 ns p?epne na 1
+        wait for 12 ns;         -- v 12 ns přepne na 1
         s_reset <= '1';                 -- Reset activated
-        wait for 73 ns;         -- za 73 ns od 12 ns  p?epne na 0
+        wait for 73 ns;         -- za 73 ns od 12 ns  přepne na 0
         s_reset <= '0';
         wait;
     end process p_reset_gen;
