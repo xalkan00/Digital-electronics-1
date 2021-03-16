@@ -4,7 +4,7 @@
 ## 1.Preparation tasks (done before the lab at home). Submit:
 
 ### 1.1 Figure or table with connection of push buttons on Nexys A7 board,
-| **port** | **=>** | **pin** |
+| **Buttons** | **=>** | **pin** |
 | :-: | :-: | :-: |
 | BTNC | => | N17 |
 | BTNU | => | M18 |
