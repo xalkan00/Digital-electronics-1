@@ -4,6 +4,14 @@
 ## 1.Preparation tasks (done before the lab at home). Submit:
 
 ### 1.1 Figure or table with connection of push buttons on Nexys A7 board,
+| **port** | **=>** | **pin** |
+| :-: | :-: | :-: |
+| BTNC | => | N17 |
+| BTNU | => | M18 |
+| BTNL | => | P17 |
+| BTNR | => | M17 | 
+| BTND | => | P18 |
+
 ### 1.2 Table with calculated values.
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/05-counter/image/freq.png" />
 
