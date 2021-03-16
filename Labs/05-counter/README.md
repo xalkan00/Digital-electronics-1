@@ -5,6 +5,7 @@
 
 ### 1.1 Figure or table with connection of push buttons on Nexys A7 board,
 ### 1.2 Table with calculated values.
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/05-counter/image/freq.png" />
 
    | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
    | :-: | :-: | :-: | :-: |
@@ -77,8 +78,9 @@
         wait;
     end process p_stimulus;
  ```
-### 2.3 Screenshot with simulated time waveforms; always display all inputs and outputs,
+### 2.3 Screenshot with simulated time waveforms; always display all inputs and outputs.
 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/05-counter/image/simulace.png" />
 
 ## 3.Top level. Submit:
 ### 3.1 Listing of VHDL code from source file top.vhd with all instantiations for the 4-bit bidirectional counter.
@@ -161,3 +163,5 @@ begin
 end Behavioral;
 ```
 ### 3.2 Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base from Part Experiments on your own. The image can be drawn on a computer or by hand.
+
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/05-counter/image/4%20bit%20%26%2016%20bit.png" />
