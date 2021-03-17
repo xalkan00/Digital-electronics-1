@@ -31,6 +31,7 @@
     text: '                    4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms   4ms',
   },
 }
+```
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/06-display_driver/image/1.png" />
 
