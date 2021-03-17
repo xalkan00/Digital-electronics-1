@@ -32,7 +32,7 @@
   },
 }
 
-<img src="   " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/06-display_driver/image/1.png" />
 
 ### 1.1 Timing diagram figure for displaying value 3.142.
 
