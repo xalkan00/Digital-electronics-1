@@ -4,6 +4,7 @@
 
 
 ## 1.Preparation tasks (done before the lab at home). Submit:
+### 1.1 Timing diagram figure for displaying value 3.142.
 ``` vhdl
 {
   signal:
@@ -34,9 +35,6 @@
 ```
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/06-display_driver/image/1.png" />
-
-### 1.1 Timing diagram figure for displaying value 3.142.
-
 
 ## 2.Display driver. Submit:
 
