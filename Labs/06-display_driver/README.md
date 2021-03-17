@@ -151,8 +151,8 @@ end architecture testbench;
 ```
 
 ### 2.3 Screenshot with simulated time waveforms; always display all inputs and outputs,
-<img src="   " />
-<img src="   " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/06-display_driver/image/simulace%201.png" />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/06-display_driver/image/simulace%202.png" />
 
 ### 2.4 Listing of VHDL architecture of the top layer.
 
