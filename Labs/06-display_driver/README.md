@@ -235,3 +235,4 @@ end architecture Behavioral;
 ## 3.Eight-digit driver. Submit:
 
 ### 3.1 Image of the driver schematic. The image can be drawn on a computer or by hand.
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/06-display_driver/image/Ručně%20psané_2021-03-18_113406.jpg" />
