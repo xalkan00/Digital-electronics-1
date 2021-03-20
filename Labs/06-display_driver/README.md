@@ -169,6 +169,28 @@ uut_driver_7seg : entity work.driver_7seg_4digits
         s_data1_i <= "0011";
         s_data0_i <= "0100";
         
+  -- assert segment digit = 2
+        assert(s_seg_o = "0010010")
+        report "First segment wrong digit." severity note;
+        
+        wait for 4 ms;   
+  -- assert segment digit = 4
+        assert(s_seg_o = "1001100")
+        report "Second segment wrong digit." severity note;
+        
+        wait for 4 ms;   
+  -- assert segment digit = 1
+        assert(s_seg_o = "1001111")
+        report "Third segment wrong digit." severity note;
+        
+        wait for 4 ms;   
+  -- assert decimal point
+        assert(s_dp_o = '0')
+        report "Decimal point on wrong digit." severity note;
+        
+  -- assert segment digit = 3
+        assert(s_seg_o = "0000110")
+        report "Last segment wrong digit." severity note;
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
