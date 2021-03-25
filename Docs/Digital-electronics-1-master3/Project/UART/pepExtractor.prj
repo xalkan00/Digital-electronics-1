@@ -1,0 +1,3 @@
+work	"UART_tx.vhd"
+work	"clock_enable.vhd"
+work	"top.vhd"

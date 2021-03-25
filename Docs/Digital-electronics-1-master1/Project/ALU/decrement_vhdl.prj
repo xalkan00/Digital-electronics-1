@@ -1,0 +1,6 @@
+vhdl work "C:\Users\Ales Michalek\Desktop\KostelanskaMichalek\ALU\halfAdder.vhd"
+vhdl work "C:\Users\Ales Michalek\Desktop\KostelanskaMichalek\ALU\fullAdder.vhd"
+vhdl work "C:\Users\Ales Michalek\Desktop\KostelanskaMichalek\ALU\negation.vhd"
+vhdl work "C:\Users\Ales Michalek\Desktop\KostelanskaMichalek\ALU\fourAdder.vhd"
+vhdl work "C:\Users\Ales Michalek\Desktop\KostelanskaMichalek\ALU\substraction.vhd"
+vhdl work "C:\Users\Ales Michalek\Desktop\KostelanskaMichalek\ALU\decrement.vhd"

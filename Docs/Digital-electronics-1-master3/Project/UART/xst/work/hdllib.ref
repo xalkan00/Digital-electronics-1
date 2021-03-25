@@ -1,0 +1,7 @@
+AR uart_tx transmitter C:/Users/pesul/Xilinx/UART/UART_tx.vhd sub00/vhpl06 1587382948
+AR uart_tx rtl C:/Users/pesul/Xilinx/UART/UART_tx.vhd sub00/vhpl03 1586596912
+EN top NULL C:/Users/pesul/Xilinx/UART/top.vhd sub00/vhpl04 1587382949
+AR clock_enable behavioral C:/Users/pesul/Xilinx/UART/clock_enable.vhd sub00/vhpl01 1587382946
+EN clock_enable NULL C:/Users/pesul/Xilinx/UART/clock_enable.vhd sub00/vhpl00 1587382945
+AR top behavioral C:/Users/pesul/Xilinx/UART/top.vhd sub00/vhpl05 1587382950
+EN uart_tx NULL C:/Users/pesul/Xilinx/UART/UART_tx.vhd sub00/vhpl02 1587382947

@@ -1,0 +1,29 @@
+V3 15
+FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/full_adder.vhd 2020/02/27.10:31:06 P.20131013
+EN work/full_adder 1582799240 \
+      FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Behavioral 1582799241 \
+      FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/full_adder.vhd \
+      EN work/full_adder 1582799240 CP work/half_adder
+FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/half_adder.vhd 2020/02/27.10:20:30 P.20131013
+EN work/half_adder 1582799238 \
+      FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/Behavioral 1582799239 \
+      FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/half_adder.vhd \
+      EN work/half_adder 1582799238
+FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/hex_to_7seg.vhd 2020/02/20.10:51:33 P.20131013
+EN work/hex_to_7seg 1582799242 \
+      FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1582799243 \
+      FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1582799242
+FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/top.vhd 2020/02/27.11:25:41 P.20131013
+EN work/top 1582799244 \
+      FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1582799245 \
+      FL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/top.vhd \
+      EN work/top 1582799244 CP work/full_adder CP work/hex_to_7seg

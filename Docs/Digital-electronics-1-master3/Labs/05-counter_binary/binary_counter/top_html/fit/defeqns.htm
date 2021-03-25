@@ -1,0 +1,229 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt0: FDCPE port map (CLOCKE/s_cnt(0),CLOCKE/s_cnt_D(0),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(0) <= (N_PZ_115 AND NOT CLOCKE/s_cnt(0) AND N_PZ_145);
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt1: FDCPE port map (CLOCKE/s_cnt(1),CLOCKE/s_cnt_D(1),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(1) <= ((N_PZ_115 AND CLOCKE/s_cnt(0) AND N_PZ_145 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_115 AND NOT CLOCKE/s_cnt(0) AND N_PZ_145 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(1)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt2: FTCPE port map (CLOCKE/s_cnt(2),CLOCKE/s_cnt_T(2),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(2) <= ((CLOCKE/s_cnt(2) AND N_PZ_140)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(0) AND CLOCKE/s_cnt(1) AND NOT N_PZ_140));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt3: FDCPE port map (CLOCKE/s_cnt(3),CLOCKE/s_cnt_D(3),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(3) <= ((NOT N_PZ_103 AND NOT N_PZ_140 AND CLOCKE/s_cnt(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT N_PZ_103 AND CLOCKE/s_cnt(0) AND CLOCKE/s_cnt(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(2) AND NOT N_PZ_140));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt4: FDCPE port map (CLOCKE/s_cnt(4),CLOCKE/s_cnt_D(4),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(4) <= NOT (((NOT N_PZ_110)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_103 AND CLOCKE/s_cnt(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT N_PZ_103 AND NOT CLOCKE/s_cnt(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9))));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt5: FDCPE port map (CLOCKE/s_cnt(5),CLOCKE/s_cnt_D(5),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(5) <= NOT (((NOT N_PZ_110)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_139)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT N_PZ_103 AND NOT CLOCKE/s_cnt(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9))));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt6: FDCPE port map (CLOCKE/s_cnt(6),CLOCKE/s_cnt_D(6),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(6) <= NOT (((NOT N_PZ_110)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(6) AND N_PZ_139)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(6) AND NOT N_PZ_139)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9))));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt7: FDCPE port map (CLOCKE/s_cnt(7),CLOCKE/s_cnt_D(7),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(7) <= NOT (((NOT N_PZ_110)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(6) AND NOT CLOCKE/s_cnt(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT N_PZ_139 AND NOT CLOCKE/s_cnt(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(6) AND N_PZ_139 AND CLOCKE/s_cnt(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9))));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt8: FTCPE port map (CLOCKE/s_cnt(8),CLOCKE/s_cnt_T(8),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(8) <= ((CLOCKE/s_cnt(8) AND N_PZ_140)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(6) AND NOT N_PZ_140 AND N_PZ_139 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND N_PZ_103));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt9: FTCPE port map (CLOCKE/s_cnt(9),CLOCKE/s_cnt_T(9),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(9) <= ((CLOCKE/s_cnt(9) AND N_PZ_140)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND N_PZ_103)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND NOT N_PZ_140 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	N_PZ_139 AND CLOCKE/s_cnt(7)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt10: FTCPE port map (CLOCKE/s_cnt(10),CLOCKE/s_cnt_T(10),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(10) <= ((CLOCKE/s_cnt(10) AND NOT N_PZ_115)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND NOT N_PZ_110)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND N_PZ_103)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(9) AND N_PZ_103 AND NOT N_PZ_145)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (N_PZ_110 AND CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(9) AND N_PZ_139 AND CLOCKE/s_cnt(7)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt11: FTCPE port map (CLOCKE/s_cnt(11),CLOCKE/s_cnt_T(11),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(11) <= ((CLOCKE/s_cnt(11) AND CLOCKE/s_cnt(13))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(11) AND NOT N_PZ_145)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND N_PZ_145 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	N_PZ_139 AND CLOCKE/s_cnt(7)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt12: FTCPE port map (CLOCKE/s_cnt(12),CLOCKE/s_cnt_T(12),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(12) <= ((NOT N_PZ_110 AND CLOCKE/s_cnt(12))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(11) AND N_PZ_110 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND N_PZ_139 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(7)));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt13: FDCPE port map (CLOCKE/s_cnt(13),CLOCKE/s_cnt_D(13),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(13) <= ((NOT CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND N_PZ_110)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(13) AND N_PZ_110 AND NOT CLOCKE/s_cnt(8))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(13) AND N_PZ_110 AND NOT CLOCKE/s_cnt(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(13) AND N_PZ_110 AND NOT CLOCKE/s_cnt(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT N_PZ_103 AND NOT CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(7))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND CLOCKE/s_cnt(12) AND CLOCKE/s_cnt(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND N_PZ_145 AND N_PZ_139 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(7)));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt14: FDCPE port map (CLOCKE/s_cnt(14),'0',clk_i,'0','0','1');
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt15: FDCPE port map (CLOCKE/s_cnt(15),'0',clk_i,'0','0','1');
+</td></tr><tr><td>
+FDCPE_LD0: FDCPE port map (LD0,LD0_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LD0_D <= NOT (((LD0 AND BTN0 AND s_en)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT LD0 AND BTN0 AND NOT s_en)));
+</td></tr><tr><td>
+FTCPE_LD1: FTCPE port map (LD1,LD1_T,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LD1_T <= ((NOT BTN0 AND NOT LD1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT LD0 AND BTN0 AND s_en));
+</td></tr><tr><td>
+FTCPE_LD2: FTCPE port map (LD2,LD2_T,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LD2_T <= ((NOT BTN0 AND NOT LD2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT LD0 AND BTN0 AND s_en AND NOT LD1));
+</td></tr><tr><td>
+FTCPE_LD3: FTCPE port map (LD3,LD3_T,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LD3_T <= ((NOT BTN0 AND NOT LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT LD0 AND BTN0 AND s_en AND NOT LD1 AND NOT LD2));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_103 <= (CLOCKE/s_cnt(0) AND CLOCKE/s_cnt(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(2) AND CLOCKE/s_cnt(3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_110 <= ((NOT CLOCKE/s_cnt(13) AND N_PZ_145)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(12) AND N_PZ_145));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_115 <= ((NOT CLOCKE/s_cnt(13))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(6) AND NOT CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(7)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_139 <= (N_PZ_103 AND CLOCKE/s_cnt(4) AND CLOCKE/s_cnt(5));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_140 <= ((NOT N_PZ_110)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND CLOCKE/s_cnt(4))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND CLOCKE/s_cnt(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND CLOCKE/s_cnt(7)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_145 <= (BTN0 AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15));
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_dig_o(0) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_dig_o(1) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_dig_o(2) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_dig_o(3) <= '0';
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_seg_o(0) <= ((LD1 AND LD2 AND LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (LD0 AND LD1 AND NOT LD2 AND NOT LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT LD0 AND NOT LD1 AND NOT LD2 AND LD3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_seg_o(1) <= (NOT LD0 AND LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((NOT LD0 AND LD1 AND NOT LD2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (LD0 AND NOT LD1 AND LD2 AND LD3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_seg_o(2) <= ((NOT LD0 AND LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT LD0 AND LD1 AND LD2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (LD1 AND NOT LD2 AND LD3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_seg_o(3) <= ((NOT LD0 AND NOT LD1 AND NOT LD2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (LD0 AND LD1 AND NOT LD2 AND LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (LD0 AND NOT LD1 AND LD2 AND NOT LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT LD0 AND LD1 AND LD2 AND LD3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_seg_o(4) <= ((LD0 AND NOT LD2 AND NOT LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT LD1 AND NOT LD2 AND NOT LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (LD0 AND NOT LD1 AND LD2 AND LD3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_seg_o(5) <= (LD0 AND NOT LD2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((NOT LD0 AND NOT LD1 AND NOT LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (LD1 AND NOT LD2 AND LD3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+disp_seg_o(6) <= (NOT LD0 AND LD1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((NOT LD0 AND LD2 AND NOT LD3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (LD1 AND NOT LD2 AND LD3));
+</td></tr><tr><td>
+FDCPE_s_en: FDCPE port map (s_en,s_en_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s_en_D <= ((BTN0 AND N_PZ_140)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (BTN0 AND CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(9) AND N_PZ_103));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

@@ -1,0 +1,25 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/pesul/Xilinx/UART/testbench_isim_beh.exe -prj C:/Users/pesul/Xilinx/UART/testbench_beh.prj work.testbench 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/pesul/Xilinx/UART/UART_tx.vhd" into library work
+Parsing VHDL file "C:/Users/pesul/Xilinx/UART/clock_enable.vhd" into library work
+Parsing VHDL file "C:/Users/pesul/Xilinx/UART/top.vhd" into library work
+Parsing VHDL file "C:/Users/pesul/Xilinx/UART/testbench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity clock_enable [clock_enable_default]
+Compiling architecture transmitter of entity UART_tx [uart_tx_default]
+Compiling architecture behavioral of entity top [top_default]
+Compiling architecture behavior of entity testbench
+Time Resolution for simulation is 1ps.
+Compiled 12 VHDL Units
+Built simulation executable C:/Users/pesul/Xilinx/UART/testbench_isim_beh.exe
+Fuse Memory Usage: 36704 KB
+Fuse CPU Usage: 827 ms

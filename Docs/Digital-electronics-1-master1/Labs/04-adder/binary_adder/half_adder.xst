@@ -1,0 +1,5 @@
+set -tmpdir "/home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/xst/projnav.tmp"
+set -xsthdpdir "/home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/04-adder/binary_adder/xst"
+elaborate
+-ifn half_adder.prj
+-ifmt mixed

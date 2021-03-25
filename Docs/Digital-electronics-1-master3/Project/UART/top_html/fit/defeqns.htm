@@ -1,0 +1,387 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt0: FDCPE port map (CLOCKE/s_cnt(0),CLOCKE/s_cnt_D(0),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(0) <= ((s_bound(1).COMB AND NOT CLOCKE/s_cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND s_srst AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND s_srst AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2) AND NOT CLOCKE/s_cnt(0)));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt1: FDCPE port map (CLOCKE/s_cnt(1),CLOCKE/s_cnt_D(1),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(1) <= ((s_bound(1).COMB AND CLOCKE/s_cnt(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1).COMB AND NOT CLOCKE/s_cnt(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND s_srst AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2) AND CLOCKE/s_cnt(0)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt2: FTCPE port map (CLOCKE/s_cnt(2),CLOCKE/s_cnt_T(2),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(2) <= ((NOT s_bound(1).COMB AND CLOCKE/s_cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1).COMB AND CLOCKE/s_cnt(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(0)));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt3: FDCPE port map (CLOCKE/s_cnt(3),CLOCKE/s_cnt_D(3),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(3) <= ((s_bound(1).COMB AND NOT UART/s_tx_data(4).COMB AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1).COMB AND NOT UART/s_tx_data(4).COMB AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(1) AND CLOCKE/s_cnt(2) AND CLOCKE/s_cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND NOT s_bound(1).COMB AND s_srst AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_srst AND NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(5) AND NOT UART/s_tx_data(4).COMB AND NOT CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT s_bound(0) AND NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13) AND CLOCKE/s_cnt(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(2) AND CLOCKE/s_cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_srst AND NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND NOT s_bound(0) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2) AND NOT CLOCKE/s_cnt(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(3)));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt4: FDCPE port map (CLOCKE/s_cnt(4),CLOCKE/s_cnt_D(4),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(4) <= ((s_srst AND CLOCKE/s_cnt(4) AND N_PZ_168 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_tx_data(4).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_srst AND NOT CLOCKE/s_cnt(4) AND N_PZ_168 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_tx_data(4).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND s_srst AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND s_srst AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2)));
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt5: FDCPE port map (CLOCKE/s_cnt(5),CLOCKE/s_cnt_D(5),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(5) <= (s_srst AND N_PZ_168 AND CLOCKE/s_cnt(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR (s_srst AND CLOCKE/s_cnt(4) AND N_PZ_168 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_tx_data(4).COMB);
+</td></tr><tr><td>
+FDCPE_CLOCKE/s_cnt6: FDCPE port map (CLOCKE/s_cnt(6),CLOCKE/s_cnt_D(6),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_D(6) <= (s_bound(1).COMB AND CLOCKE/s_cnt(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((s_bound(1).COMB AND CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(5) AND UART/s_tx_data(4).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1).COMB AND NOT CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(6) AND NOT N_PZ_168)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND NOT s_bound(1).COMB AND s_srst AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(14) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(7) AND NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(2) AND NOT CLOCKE/s_cnt(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND NOT s_bound(1).COMB AND s_srst AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND NOT N_PZ_168 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND s_srst AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(6) AND NOT CLOCKE/s_cnt(15) AND NOT N_PZ_168 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt7: FTCPE port map (CLOCKE/s_cnt(7),CLOCKE/s_cnt_T(7),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(7) <= ((CLOCKE/s_cnt(7) AND NOT UART/s_tx_data(7).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1) AND s_srst AND CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(5) AND UART/s_tx_data(4).COMB AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT s_bound(0)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt8: FTCPE port map (CLOCKE/s_cnt(8),CLOCKE/s_cnt_T(8),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(8) <= ((CLOCKE/s_cnt(8) AND NOT UART/s_tx_data(7).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1) AND s_srst AND CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(5) AND UART/s_tx_data(4).COMB AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(7) AND NOT s_bound(0)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt9: FTCPE port map (CLOCKE/s_cnt(9),CLOCKE/s_cnt_T(9),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(9) <= ((NOT UART/s_tx_data(7).COMB AND CLOCKE/s_cnt(9))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1) AND s_srst AND CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_tx_data(4).COMB AND CLOCKE/s_cnt(7) AND NOT s_bound(0)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt10: FTCPE port map (CLOCKE/s_cnt(10),CLOCKE/s_cnt_T(10),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(10) <= ((CLOCKE/s_cnt(10) AND NOT UART/s_tx_data(7).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1) AND s_srst AND CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_tx_data(4).COMB AND CLOCKE/s_cnt(7) AND NOT s_bound(0) AND CLOCKE/s_cnt(9)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt11: FTCPE port map (CLOCKE/s_cnt(11),CLOCKE/s_cnt_T(11),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(11) <= ((NOT UART/s_tx_data(7).COMB AND CLOCKE/s_cnt(11))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1) AND s_srst AND CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(4) AND CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(5) AND UART/s_tx_data(4).COMB AND CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT s_bound(0) AND CLOCKE/s_cnt(9)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt12: FTCPE port map (CLOCKE/s_cnt(12),CLOCKE/s_cnt_T(12),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(12) <= ((NOT UART/s_tx_data(7).COMB AND CLOCKE/s_cnt(12))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1) AND s_srst AND CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(4) AND CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(5) AND UART/s_tx_data(4).COMB AND CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT s_bound(0) AND CLOCKE/s_cnt(11) AND CLOCKE/s_cnt(9)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt13: FTCPE port map (CLOCKE/s_cnt(13),CLOCKE/s_cnt_T(13),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(13) <= ((NOT UART/s_tx_data(7).COMB AND CLOCKE/s_cnt(13))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1) AND s_srst AND CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(4) AND CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(5) AND UART/s_tx_data(4).COMB AND CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT s_bound(0) AND CLOCKE/s_cnt(12) AND CLOCKE/s_cnt(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(9)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt14: FTCPE port map (CLOCKE/s_cnt(14),CLOCKE/s_cnt_T(14),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(14) <= ((CLOCKE/s_cnt(14) AND NOT UART/s_tx_data(7).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1) AND s_srst AND CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(4) AND CLOCKE/s_cnt(6) AND CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(5) AND UART/s_tx_data(4).COMB AND CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT s_bound(0) AND CLOCKE/s_cnt(12) AND CLOCKE/s_cnt(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(9) AND CLOCKE/s_cnt(13)));
+</td></tr><tr><td>
+FTCPE_CLOCKE/s_cnt15: FTCPE port map (CLOCKE/s_cnt(15),CLOCKE/s_cnt_T(15),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOCKE/s_cnt_T(15) <= ((NOT s_srst AND CLOCKE/s_cnt(15))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (CLOCKE/s_cnt(15) AND NOT N_PZ_168)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_srst AND CLOCKE/s_cnt(10) AND CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(14) AND CLOCKE/s_cnt(6) AND N_PZ_168 AND CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(5) AND UART/s_tx_data(4).COMB AND CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(12) AND CLOCKE/s_cnt(11) AND CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(13)));
+</td></tr><tr><td>
+FDCPE_LD0: FDCPE port map (LD0,LD0_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LD0_D <= NOT ((NOT UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_tx_data(6).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((NOT UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_Main_FSM_FFd3 AND NOT UART/s_tx_data(6).COMB AND NOT UART/s_one_bits(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_Main_FSM_FFd4 AND NOT UART/s_tx_data(6).COMB AND UART/s_one_bits(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd6 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd2 AND NOT UART/s_Main_FSM_FFd3 AND NOT UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd4 AND NOT UART/s_tx_data(6).COMB AND LD0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+N_PZ_168 <= ((NOT s_bound(1) AND NOT s_bound(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(14) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(6) AND NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(7) AND NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(6) AND NOT CLOCKE/s_cnt(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND NOT CLOCKE/s_cnt(10) AND NOT CLOCKE/s_cnt(4) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13)));
+</td></tr><tr><td>
+FDCPE_UART/s_Main_FSM_FFd1: FDCPE port map (UART/s_Main_FSM_FFd1,UART/s_Main_FSM_FFd1_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_Main_FSM_FFd1_D <= ((NOT BTN0 AND UART/s_Main_FSM_FFd1)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT SW10_CPLD AND s_en AND UART/s_Main_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND UART/s_Main_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_double_control(0)));
+</td></tr><tr><td>
+FDCPE_UART/s_Main_FSM_FFd2: FDCPE port map (UART/s_Main_FSM_FFd2,UART/s_Main_FSM_FFd2_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_Main_FSM_FFd2_D <= NOT (((NOT s_en AND NOT UART/s_Main_FSM_FFd2)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT UART/s_Main_FSM_FFd2 AND NOT UART/s_Main_FSM_FFd3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT SW10_CPLD AND s_en AND UART/s_Main_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd3 AND NOT UART/s_Main_FSM_FFd4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND UART/s_Main_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd3 AND NOT UART/s_Main_FSM_FFd4 AND UART/s_double_control(0))));
+</td></tr><tr><td>
+FDCPE_UART/s_Main_FSM_FFd3: FDCPE port map (UART/s_Main_FSM_FFd3,UART/s_Main_FSM_FFd3_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_Main_FSM_FFd3_D <= ((NOT s_en AND UART/s_Main_FSM_FFd3)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND NOT SW9_CPLD AND UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(2) AND UART/s_bit_index(1) AND UART/s_bit_index(0)));
+</td></tr><tr><td>
+FDCPE_UART/s_Main_FSM_FFd4: FDCPE port map (UART/s_Main_FSM_FFd4,UART/s_Main_FSM_FFd4_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_Main_FSM_FFd4_D <= ((NOT s_en AND UART/s_Main_FSM_FFd4)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND SW9_CPLD AND UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(2) AND UART/s_bit_index(1) AND UART/s_bit_index(0)));
+</td></tr><tr><td>
+FTCPE_UART/s_Main_FSM_FFd5: FTCPE port map (UART/s_Main_FSM_FFd5,UART/s_Main_FSM_FFd5_T,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_Main_FSM_FFd5_T <= ((s_en AND UART/s_Main_FSM_FFd6 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd5)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND NOT UART/s_Main_FSM_FFd6 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_Main_FSM_FFd5 AND UART/s_bit_index(2) AND UART/s_bit_index(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(0)));
+</td></tr><tr><td>
+FDCPE_UART/s_Main_FSM_FFd6: FDCPE port map (UART/s_Main_FSM_FFd6,UART/s_Main_FSM_FFd6_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_Main_FSM_FFd6_D <= ((UART/s_Main_FSM_FFd7 AND NOT BTN0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_en AND UART/s_Main_FSM_FFd6));
+</td></tr><tr><td>
+FDCPE_UART/s_Main_FSM_FFd7: FDCPE port map (UART/s_Main_FSM_FFd7,UART/s_Main_FSM_FFd7_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_Main_FSM_FFd7_D <= ((UART/s_Main_FSM_FFd7 AND BTN0)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (BTN0 AND UART/s_Main_FSM_FFd1));
+</td></tr><tr><td>
+FTCPE_UART/s_bit_index0: FTCPE port map (UART/s_bit_index(0),UART/s_bit_index_T(0),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_bit_index_T(0) <= ((s_en AND UART/s_Main_FSM_FFd5)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(0)));
+</td></tr><tr><td>
+FTCPE_UART/s_bit_index1: FTCPE port map (UART/s_bit_index(1),UART/s_bit_index_T(1),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_bit_index_T(1) <= ((UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(0)));
+</td></tr><tr><td>
+FTCPE_UART/s_bit_index2: FTCPE port map (UART/s_bit_index(2),UART/s_bit_index_T(2),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_bit_index_T(2) <= ((UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(1) AND UART/s_bit_index(0)));
+</td></tr><tr><td>
+FTCPE_UART/s_double_control0: FTCPE port map (UART/s_double_control(0),UART/s_double_control_T(0),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_double_control_T(0) <= (SW10_CPLD AND s_en AND UART/s_Main_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_double_control(0));
+</td></tr><tr><td>
+FTCPE_UART/s_one_bits0: FTCPE port map (UART/s_one_bits(0),UART/s_one_bits_T(0),clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_one_bits_T(0) <= ((s_en AND UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_tx_data(6).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND UART/s_Main_FSM_FFd3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd5 AND UART/s_one_bits(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_en AND NOT UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_Main_FSM_FFd4 AND UART/s_one_bits(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd3 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd5 AND NOT UART/s_Main_FSM_FFd4 AND UART/s_one_bits(0)));
+</td></tr><tr><td>
+FDCPE_UART/s_tx_data0: FDCPE port map (UART/s_tx_data(0),SW0_CPLD,clk_i,'0','0',UART/s_tx_data_CE(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_tx_data_CE(0) <= (UART/s_Main_FSM_FFd7 AND NOT BTN0);
+</td></tr><tr><td>
+FDCPE_UART/s_tx_data1: FDCPE port map (UART/s_tx_data(1),SW1_CPLD,clk_i,'0','0',UART/s_tx_data_CE(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_tx_data_CE(1) <= (UART/s_Main_FSM_FFd7 AND NOT BTN0);
+</td></tr><tr><td>
+FDCPE_UART/s_tx_data2: FDCPE port map (UART/s_tx_data(2),SW2_CPLD,clk_i,'0','0',UART/s_tx_data_CE(2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_tx_data_CE(2) <= (UART/s_Main_FSM_FFd7 AND NOT BTN0);
+</td></tr><tr><td>
+FDCPE_UART/s_tx_data3: FDCPE port map (UART/s_tx_data(3),SW3_CPLD,clk_i,'0','0',UART/s_tx_data_CE(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_tx_data_CE(3) <= (UART/s_Main_FSM_FFd7 AND NOT BTN0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+UART/s_tx_data(4).COMB <= (CLOCKE/s_cnt(1) AND CLOCKE/s_cnt(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(0) AND CLOCKE/s_cnt(3));FDCPE_UART/s_tx_data4: FDCPE port map (UART/s_tx_data(4),SW4_CPLD,clk_i,'0','0',UART/s_tx_data_CE(4));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_tx_data_CE(4) <= (UART/s_Main_FSM_FFd7 AND NOT BTN0);
+</td></tr><tr><td>
+FDCPE_UART/s_tx_data5: FDCPE port map (UART/s_tx_data(5),SW5_CPLD,clk_i,'0','0',UART/s_tx_data_CE(5));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_tx_data_CE(5) <= (UART/s_Main_FSM_FFd7 AND NOT BTN0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+UART/s_tx_data(6).COMB <= ((UART/s_tx_data(4) AND UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(2) AND NOT UART/s_bit_index(1) AND NOT UART/s_bit_index(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_tx_data(7) AND UART/s_Main_FSM_FFd5 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(2) AND UART/s_bit_index(1) AND UART/s_bit_index(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd5 AND UART/s_bit_index(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(1) AND NOT UART/s_bit_index(0) AND UART/s_tx_data(6))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd5 AND UART/s_bit_index(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_bit_index(1) AND UART/s_bit_index(0) AND UART/s_tx_data(5))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd5 AND NOT UART/s_bit_index(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(1) AND UART/s_bit_index(0) AND UART/s_tx_data(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd5 AND NOT UART/s_bit_index(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_bit_index(1) AND NOT UART/s_bit_index(0) AND UART/s_tx_data(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd5 AND NOT UART/s_bit_index(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_bit_index(1) AND UART/s_bit_index(0) AND UART/s_tx_data(1))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd5 AND NOT UART/s_bit_index(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_bit_index(1) AND NOT UART/s_bit_index(0) AND UART/s_tx_data(0)));FDCPE_UART/s_tx_data6: FDCPE port map (UART/s_tx_data(6),SW6_CPLD,clk_i,'0','0',UART/s_tx_data_CE(6));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_tx_data_CE(6) <= (UART/s_Main_FSM_FFd7 AND NOT BTN0);
+</td></tr><tr><td>
+</td></tr><tr><td>
+UART/s_tx_data(7).COMB <= (NOT s_bound(1) AND s_srst AND NOT s_bound(0));FDCPE_UART/s_tx_data7: FDCPE port map (UART/s_tx_data(7),SW7_CPLD,clk_i,'0','0',UART/s_tx_data_CE(7));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UART/s_tx_data_CE(7) <= (UART/s_Main_FSM_FFd7 AND NOT BTN0);
+</td></tr><tr><td>
+FDCPE_active_o: FDCPE port map (active_o,active_o_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;active_o_D <= ((UART/s_Main_FSM_FFd6)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	active_o));
+</td></tr><tr><td>
+FTCPE_done_o: FTCPE port map (done_o,done_o_T,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;done_o_T <= ((UART/s_Main_FSM_FFd1 AND NOT done_o)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd7 AND NOT UART/s_Main_FSM_FFd1 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd2 AND done_o)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT SW10_CPLD AND s_en AND UART/s_Main_FSM_FFd2 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT done_o));
+</td></tr><tr><td>
+FDCPE_s_bound0: FDCPE port map (s_bound(0),NOT '0',clk_i,'0','0','1');
+</td></tr><tr><td>
+</td></tr><tr><td>
+s_bound(1).COMB <= ((s_srst AND N_PZ_168)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND s_srst AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND s_srst AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(3)));FDCPE_s_bound1: FDCPE port map (s_bound(1),SW8_CPLD,clk_i,'0','0','1');
+</td></tr><tr><td>
+FDCPE_s_en: FDCPE port map (s_en,s_en_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s_en_D <= NOT (s_bound(1).COMB
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	XOR ((NOT s_bound(1).COMB AND NOT s_srst)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1).COMB AND N_PZ_168 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_tx_data(4).COMB)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1).COMB AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND NOT s_bound(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(3))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1) AND NOT s_bound(1).COMB AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND NOT CLOCKE/s_cnt(8) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND s_bound(0) AND NOT CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND NOT CLOCKE/s_cnt(13) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1).COMB AND s_srst AND CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(4) AND CLOCKE/s_cnt(14) AND CLOCKE/s_cnt(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(15) AND NOT N_PZ_168 AND CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(7) AND CLOCKE/s_cnt(12) AND CLOCKE/s_cnt(11) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(9) AND CLOCKE/s_cnt(13))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (s_bound(1).COMB AND s_srst AND CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(4) AND CLOCKE/s_cnt(14) AND CLOCKE/s_cnt(6) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(15) AND CLOCKE/s_cnt(8) AND CLOCKE/s_cnt(5) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	UART/s_tx_data(4).COMB AND CLOCKE/s_cnt(7) AND CLOCKE/s_cnt(12) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	CLOCKE/s_cnt(11) AND CLOCKE/s_cnt(9) AND CLOCKE/s_cnt(13))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT s_bound(1).COMB AND NOT CLOCKE/s_cnt(10) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(4) AND NOT CLOCKE/s_cnt(14) AND NOT CLOCKE/s_cnt(15) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(8) AND NOT CLOCKE/s_cnt(5) AND NOT CLOCKE/s_cnt(7) AND NOT s_bound(0) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(12) AND NOT CLOCKE/s_cnt(11) AND NOT CLOCKE/s_cnt(9) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(13) AND NOT CLOCKE/s_cnt(1) AND NOT CLOCKE/s_cnt(2) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT CLOCKE/s_cnt(0))));
+</td></tr><tr><td>
+FDCPE_s_srst: FDCPE port map (s_srst,s_srst_D,clk_i,'0','0','1');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s_srst_D <= NOT (((NOT s_srst AND NOT UART/s_Main_FSM_FFd6)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (UART/s_Main_FSM_FFd7 AND NOT BTN0 AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT UART/s_Main_FSM_FFd6)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

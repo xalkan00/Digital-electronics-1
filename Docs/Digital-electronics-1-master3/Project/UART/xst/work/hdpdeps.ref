@@ -1,0 +1,17 @@
+V3 11
+FL C:/Users/pesul/Xilinx/UART/clock_enable.vhd 2020/04/11.10:21:16 P.20131013
+EN work/clock_enable 1587382945 FL C:/Users/pesul/Xilinx/UART/clock_enable.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1587382946 \
+      FL C:/Users/pesul/Xilinx/UART/clock_enable.vhd EN work/clock_enable 1587382945
+FL C:/Users/pesul/Xilinx/UART/top.vhd 2020/04/20.13:42:21 P.20131013
+EN work/top 1587382949 FL C:/Users/pesul/Xilinx/UART/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1587382950 \
+      FL C:/Users/pesul/Xilinx/UART/top.vhd EN work/top 1587382949 \
+      CP work/clock_enable CP work/UART_tx
+FL C:/Users/pesul/Xilinx/UART/UART_tx.vhd 2020/04/20.13:05:34 P.20131013
+EN work/UART_TX 1587382947 FL C:/Users/pesul/Xilinx/UART/UART_tx.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/UART_tx/transmitter 1587382948 \
+      FL C:/Users/pesul/Xilinx/UART/UART_tx.vhd EN work/UART_TX 1587382947

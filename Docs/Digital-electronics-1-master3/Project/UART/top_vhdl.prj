@@ -1,0 +1,3 @@
+vhdl work "C:\Users\pesul\Xilinx\UART\UART_tx.vhd"
+vhdl work "C:\Users\pesul\Xilinx\UART\clock_enable.vhd"
+vhdl work "C:\Users\pesul\Xilinx\UART\top.vhd"

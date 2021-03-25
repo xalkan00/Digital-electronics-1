@@ -1,0 +1,8 @@
+EN binary_cnt NULL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd sub00/vhpl02 1583405551
+EN hex_to_7seg NULL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/05-counter_binary/binary_counter/hex_to_7seg.vhd sub00/vhpl04 1583405373
+AR binary_cnt behavioral /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd sub00/vhpl03 1583405552
+EN top NULL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd sub00/vhpl06 1583405375
+AR clock_enable behavioral /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd sub00/vhpl01 1583405370
+AR hex_to_7seg behavioral /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/05-counter_binary/binary_counter/hex_to_7seg.vhd sub00/vhpl05 1583405374
+EN clock_enable NULL /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd sub00/vhpl00 1583405369
+AR top behavioral /home/lab661/Documents/xkoste13/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd sub00/vhpl07 1583405376

@@ -1,0 +1,72 @@
+#-----------------------------------------------------------------------
+#
+# Constraints file with pin assignments.
+# CPLD expansion board, ISE Design Suite 14.7
+#
+# Copyright (c) 2019-2020 Tomas Fryza
+# Dept. of Radio Electronics, Brno University of Technology, Czechia
+# This work is licensed under the terms of the MIT license.
+#
+#-----------------------------------------------------------------------
+
+#-----------------------------------------------------------------------
+# Buttons & switches
+# 16 shared push buttons and slide switches
+#-----------------------------------------------------------------------
+#
+# 15  ...  8       7  ...  0
+# +-+     +-+     +-+     +-+
+# | | ... | |     | | ... | | H
+# |.|     |.|     |.|     |.| L
+# +-+     +-+     +-+     +-+
+#
+#  15  11  7   3
+#  o   o   o   o   H: pressed
+#  o   o   o   o   L: released
+#  o   o   o   o
+#  o   o   o   o
+#  12  8   4   0
+#
+
+NET A_i<0>        LOC = P9;
+NET A_i<1>        LOC = P10;
+NET A_i<2>        LOC = P6;
+NET A_i<3>        LOC = P7;
+NET B_i<0>        LOC = P4;
+NET B_i<1>        LOC = P5;
+NET B_i<2>        LOC = P2;
+NET B_i<3>        LOC = P3;
+NET control_i<0>     LOC = P140;
+NET control_i<1>     LOC = P142;
+NET control_i<2>     LOC = P138;
+NET control_i<3>     LOC = P139;
+#NET cpld_sw_i<12>       LOC = P135;
+#NET cpld_sw_i<13>       LOC = P136;
+#NET cpld_sw_i<14>       LOC = P133;
+#NET cpld_sw_i<15>       LOC = P134;
+
+#-----------------------------------------------------------------------
+# 16 discrete LEDs
+#-----------------------------------------------------------------------
+#
+# 15 ... 12 11 ... 8
+#  * * * *   * * * *   H: turn LED on
+#  * * * *   * * * *   L: turn LED off
+#  7 ... 4   3 ... 0
+#
+NET A_o<0>           LOC = P118;
+NET A_o<1>           LOC = P119;
+NET A_o<2>           LOC = P116;
+NET A_o<3>          LOC = P117;
+NET B_o<0>           LOC = P114;
+NET B_o<1>           LOC = P115;
+NET B_o<2>             LOC = P112;
+NET B_o<3>            LOC = P113;
+NET control_o<0>            LOC = P103;
+NET control_o<1>            LOC = P104;
+NET control_o<2>            LOC = P101;
+NET control_o<3>           LOC = P102;
+NET resultALU<0>            LOC = P98;
+NET resultALU<1>           LOC = P100;
+NET resultALU<1>           LOC = P96;
+NET resultALU<3>           LOC = P97;

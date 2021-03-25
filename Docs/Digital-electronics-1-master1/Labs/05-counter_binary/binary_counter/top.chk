@@ -1,0 +1,122 @@
+
+----------------------------------------
+|  P a r t i t i o n    S u c c e e d  |
+----------------------------------------
+0 Group(s)
+
+GCLK1: 2=clk_i.p
+----------------- B l o c k 0 ------------------
+PLApt(26/56), Fanin(22/38), Clk(1/3), Bct(0/4), Pin(1/6), Mcell(16/16)
+PLApts[26/26] 81 82 5 78 3 79 4 80 40 41 42 60 61 62 43 44 45 46 63 64 65 66 53 54 55 76
+Fanins[22] CLOCK_ENABLE/s_cnt<0>.n CLOCK_ENABLE/s_cnt<10>.n CLOCK_ENABLE/s_cnt<11>.n CLOCK_ENABLE/s_cnt<12>.n 
+           CLOCK_ENABLE/s_cnt<13>.n CLOCK_ENABLE/s_cnt<14>.n CLOCK_ENABLE/s_cnt<15>.n CLOCK_ENABLE/s_cnt<1>.n 
+           CLOCK_ENABLE/s_cnt<2>.n CLOCK_ENABLE/s_cnt<3>.n CLOCK_ENABLE/s_cnt<4>.n CLOCK_ENABLE/s_cnt<5>.n 
+           CLOCK_ENABLE/s_cnt<6>.n CLOCK_ENABLE/s_cnt<7>.n CLOCK_ENABLE/s_cnt<8>.n CLOCK_ENABLE/s_cnt<9>.n 
+           s_cnt<0>.n s_cnt<1>.n s_cnt<2>.n s_cnt<3>.n s_en.n BTN0.p
+clk[1] clk_i 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[17] [BTN0(143)] [CLOCK_ENABLE/s_cnt<10>(160)] [CLOCK_ENABLE/s_cnt<11>(159)]  
+           [CLOCK_ENABLE/s_cnt<12>(155)] [CLOCK_ENABLE/s_cnt<13>(154)] [CLOCK_ENABLE/s_cnt<14>(153)]  
+           [CLOCK_ENABLE/s_cnt<15>(152)] [CLOCK_ENABLE/s_cnt<7>(151)] [CLOCK_ENABLE/s_cnt<8>(149)]  
+           [CLOCK_ENABLE/s_cnt<9>(146)] [s_cnt<0>(145)] [s_cnt<1>(158)] [s_cnt<2>(157)] [s_cnt<3>(156)]  
+           [CLOCK_ENABLE/s_cnt<2>(150)] [CLOCK_ENABLE/s_cnt<3>(148)] [CLOCK_ENABLE/s_cnt<6>(147)] 
+Signal[17] [ 0: s_cnt<0>(145)  ][ 1: CLOCK_ENABLE/s_cnt<9>(146)  ][ 2: CLOCK_ENABLE/s_cnt<6>(147) BTN0(143)  
+            ][ 3: CLOCK_ENABLE/s_cnt<3>(148) (142)  ][ 4: CLOCK_ENABLE/s_cnt<8>(149)  ][ 5:  
+           CLOCK_ENABLE/s_cnt<2>(150) (140)  ][ 6: CLOCK_ENABLE/s_cnt<7>(151)  ][ 7:  
+           CLOCK_ENABLE/s_cnt<15>(152)  ][ 8: CLOCK_ENABLE/s_cnt<14>(153)  ][ 9: CLOCK_ENABLE/s_cnt<13>(154)  
+            ][ 10: CLOCK_ENABLE/s_cnt<12>(155)  ][ 11: s_cnt<3>(156) (139)  ][ 12: s_cnt<2>(157) (138)  ] 
+           [ 13: s_cnt<1>(158) (137)  ][ 14: CLOCK_ENABLE/s_cnt<11>(159)  ][ 15: CLOCK_ENABLE/s_cnt<10>(160)  
+            ]
+----------------- B l o c k 1 ------------------
+PLApt(32/56), Fanin(17/38), Clk(1/3), Bct(0/4), Pin(0/8), Mcell(5/16)
+PLApts[32/32] 47 48 49 51 52 67 68 69 70 71 1 29 32 36 56 31 33 38 39 58 59 34 35 50 72 73 74 75 77 30 37 57
+Fanins[17] CLOCK_ENABLE/s_cnt<0>.n CLOCK_ENABLE/s_cnt<10>.n CLOCK_ENABLE/s_cnt<11>.n CLOCK_ENABLE/s_cnt<12>.n 
+           CLOCK_ENABLE/s_cnt<13>.n CLOCK_ENABLE/s_cnt<14>.n CLOCK_ENABLE/s_cnt<15>.n CLOCK_ENABLE/s_cnt<1>.n 
+           CLOCK_ENABLE/s_cnt<2>.n CLOCK_ENABLE/s_cnt<3>.n CLOCK_ENABLE/s_cnt<4>.n CLOCK_ENABLE/s_cnt<5>.n 
+           CLOCK_ENABLE/s_cnt<6>.n CLOCK_ENABLE/s_cnt<7>.n CLOCK_ENABLE/s_cnt<8>.n CLOCK_ENABLE/s_cnt<9>.n 
+           BTN0.p
+clk[1] clk_i 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 5] [CLOCK_ENABLE/s_cnt<4>(176)] [s_en(171)] [CLOCK_ENABLE/s_cnt<1>(170)]  
+           [CLOCK_ENABLE/s_cnt<5>(169)] [CLOCK_ENABLE/s_cnt<0>(168)] 
+Signal[ 5] [ 0: (2)  ][ 1:  ][ 2: (3)  ][ 3: (4)  ][ 4: (5)  ][ 5:  ][ 6:  ][ 7: CLOCK_ENABLE/s_cnt<0>(168)  
+            ][ 8: CLOCK_ENABLE/s_cnt<5>(169)  ][ 9: CLOCK_ENABLE/s_cnt<1>(170)  ][ 10: s_en(171)  ][ 11: (6)  
+            ][ 12: (7)  ][ 13: (9)  ][ 14: (10)  ][ 15: CLOCK_ENABLE/s_cnt<4>(176)  ]
+----------------- B l o c k 2 ------------------
+----------------- B l o c k 3 ------------------
+----------------- B l o c k 4 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(1/5), Mcell(0/16)
+PLApts[0/0]
+Fanins[ 0]
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 1] [clk_i(32)] 
+Signal[ 1] [ 0:  ][ 1: (33)  ][ 2:  ][ 3: clk_i(32)  ][ 4: (31)  ][ 5: (30)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ] 
+           [ 10:  ][ 11:  ][ 12:  ][ 13: (28)  ][ 14:  ][ 15:  ]
+----------------- B l o c k 5 ------------------
+----------------- B l o c k 6 ------------------
+----------------- B l o c k 7 ------------------
+----------------- B l o c k 8 ------------------
+----------------- B l o c k 9 ------------------
+----------------- B l o c k 10 ------------------
+PLApt(0/56), Fanin(0/38), Clk(0/3), Bct(0/4), Pin(4/8), Mcell(4/16)
+PLApts[0/0]
+Fanins[ 0]
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 4] [disp_dig_o<0>(317),disp_dig_o<0>(126)] [disp_dig_o<1>(318),disp_dig_o<1>(128)]  
+           [disp_dig_o<2>(319),disp_dig_o<2>(129)] [disp_dig_o<3>(320),disp_dig_o<3>(130)] 
+Signal[ 4] [ 0:  ][ 1:  ][ 2:  ][ 3:  ][ 4: (120)  ][ 5: (121)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ][ 10: (124)  ] 
+           [ 11: (125)  ][ 12: disp_dig_o<0>(317) disp_dig_o<0>(126)  ][ 13: disp_dig_o<1>(318)  
+           disp_dig_o<1>(128)  ][ 14: disp_dig_o<2>(319) disp_dig_o<2>(129)  ][ 15: disp_dig_o<3>(320)  
+           disp_dig_o<3>(130)  ]
+----------------- B l o c k 11 ------------------
+----------------- B l o c k 12 ------------------
+----------------- B l o c k 13 ------------------
+PLApt(3/56), Fanin(4/38), Clk(0/3), Bct(0/4), Pin(1/8), Mcell(1/16)
+PLApts[3/3] 8 15 27
+Fanins[ 4] s_cnt<0>.n s_cnt<1>.n s_cnt<2>.n s_cnt<3>.n
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 1] [disp_seg_o<0>(368),disp_seg_o<0>(61)] 
+Signal[ 1] [ 0: (74)  ][ 1: (71)  ][ 2: (70)  ][ 3: (69)  ][ 4:  ][ 5: (68)  ][ 6:  ][ 7:  ][ 8:  ][ 9:  ] 
+           [ 10:  ][ 11:  ][ 12: (66)  ][ 13: (64)  ][ 14:  ][ 15: disp_seg_o<0>(368) disp_seg_o<0>(61)  ]
+----------------- B l o c k 14 ------------------
+----------------- B l o c k 15 ------------------
+PLApt(15/56), Fanin(4/38), Clk(0/3), Bct(0/4), Pin(6/7), Mcell(6/16)
+PLApts[15/56] 17 26 7 18 12 21 24 28 6 23 13 9 () () () () () () () () () () () () () () () () () () () () () 
+              () () () () () () () () () () () () () 16 () () () () () 10 () () 22
+Fanins[ 4] s_cnt<0>.n s_cnt<1>.n s_cnt<2>.n s_cnt<3>.n
+clk[0] 
+CTC: 
+CTR: 
+CTS: 
+CTE: 
+vref: [0]
+Signal[ 6] [disp_seg_o<1>(399),disp_seg_o<1>(54)] [disp_seg_o<2>(396),disp_seg_o<2>(57)]  
+           [disp_seg_o<3>(395),disp_seg_o<3>(58)] [disp_seg_o<4>(389),disp_seg_o<4>(60)]  
+           [disp_seg_o<5>(400),disp_seg_o<5>(53)] [disp_seg_o<6>(397),disp_seg_o<6>(56)] 
+Signal[ 6] [ 0:  ][ 1:  ][ 2:  ][ 3:  ][ 4: disp_seg_o<4>(389) disp_seg_o<4>(60)  ][ 5: (59)  ][ 6:  ][ 7:  ] 
+           [ 8:  ][ 9:  ][ 10: disp_seg_o<3>(395) disp_seg_o<3>(58)  ][ 11: disp_seg_o<2>(396)  
+           disp_seg_o<2>(57)  ][ 12: disp_seg_o<6>(397) disp_seg_o<6>(56)  ][ 13:  ][ 14: disp_seg_o<1>(399)  
+           disp_seg_o<1>(54)  ][ 15: disp_seg_o<5>(400) disp_seg_o<5>(53)  ]

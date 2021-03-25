@@ -1,0 +1,31 @@
+V3 16
+FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_cnt.vhd 2020/03/04.13:33:54 P.20131013
+FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd 2020/03/04.13:33:54 P.20131013
+EN work/binary_cnt 1583329075 \
+      FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/binary_cnt/Behavioral 1583329076 \
+      FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/binary_cnt.vhd \
+      EN work/binary_cnt 1583329075
+FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd 2020/03/04.14:08:51 P.20131013
+EN work/clock_enable 1583329073 \
+      FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/clock_enable/Behavioral 1583329074 \
+      FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/clock_enable.vhd \
+      EN work/clock_enable 1583329073
+FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/hex_to_7seg.vhd 2020/02/19.13:11:52 P.20131013
+EN work/hex_to_7seg 1583329077 \
+      FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1583329078 \
+      FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1583329077
+FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd 2020/03/04.14:37:46 P.20131013
+EN work/top 1583329079 \
+      FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1583329080 \
+      FL /home/lab661/Documents/xmorav39/Digital-electronics-1/Labs/05-counter_binary/binary_counter/top.vhd \
+      EN work/top 1583329079 CP work/clock_enable CP work/binary_cnt \
+      CP work/hex_to_7seg

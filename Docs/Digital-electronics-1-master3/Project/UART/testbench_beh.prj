@@ -1,0 +1,4 @@
+vhdl work "UART_tx.vhd"
+vhdl work "clock_enable.vhd"
+vhdl work "top.vhd"
+vhdl work "testbench.vhd"
