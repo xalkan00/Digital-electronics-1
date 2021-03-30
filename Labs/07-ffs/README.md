@@ -8,9 +8,9 @@
    | **D** | **Qn** | **Q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-- |
    | 0 | 0 | 0 | No change |
-   | 0 | 1 | 0 | Reset |
-   | 1 | 0 | 0 | Reset |
-   | 1 | 1 | 1 | Set |
+   | 0 | 1 | 0 | Change |
+   | 1 | 0 | 0 | No change |
+   | 1 | 1 | 1 | Change |
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/JK_ff.png" />
 
