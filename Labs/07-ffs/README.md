@@ -250,7 +250,10 @@ p_clk_gen : process
         end loop;
         wait;
     end process p_clk_gen;
-    
+```   
+
+reset and stimulus processes  tb_d_ff_arst
+``` VHDL
      p_reset_gen : process
     begin
         s_arst <= '0';
@@ -336,12 +339,243 @@ p_clk_gen : process
         wait;
     end process p_stimulus;
 
+```
+reset and stimulus processes  tb_d_ff_rst
+``` VHDL
+ p_reset_gen : process
+  
+    begin
+        s_rst <= '0';                 
+        wait for 50 ns;
+        
+        s_rst <= '1';                 
+        wait for 60 ns;
+        
+        s_rst <= '0';
+                 
+        wait;
+  end process p_reset_gen;
+  
+  p_stimulus : process
+   
+    begin
+        -- Report a note at the begining of stimulus process
+        report "Stimulus process started." severity note;
+        s_d     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 1" severity note;
+        
+        s_d     <=  '1';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 2" severity note;
+        
+        s_d     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 3" severity note;
+       
+        s_d     <=  '1';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 4" severity note;
+           
+        s_d     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 5" severity note;
+        
+        
+        ----------------------  Reset activated  -------------------------
+        
+        s_d     <=  '1';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 7" severity note;
+        
+        s_d     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 8" severity note;
+        
+        s_d     <=  '1';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 9" severity note;
+       
+        s_d     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 10" severity note;
+           
+        s_d     <=  '1';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 11" severity note;
+        
+         s_d     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 12" severity note;
 
+      
+        ----------------------------  Reset deactivated  --------------------------
+        
+        s_d     <=  '1';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 14" severity note;
+        
+        s_d     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 15" severity note;
+       
+        s_d     <=  '1';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 16" severity note;
+           
+        s_d     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 17" severity note;
+        
+         s_d     <=  '1';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 18" severity note;
+                    
+        report "Stimulus process ended." severity note;
+        wait;
+   end process p_stimulus;
 ```
 
+reset and stimulus processes tb_jk_ff_rst
+``` VHDL
+    p_reset_gen : process
+    begin
+        s_rst <= '0';                 
+        wait for 60 ns;
+        s_rst <= '1';                 
+        wait for 20 ns;
+        s_rst <= '0';                 
+        wait;
+    end process p_reset_gen;
+    
+     p_stimulus : process
+    begin
+        -- Report a note at the begining of stimulus process
+        report "Stimulus process started." severity note;
+        wait for 10 ns;
+        s_j     <=  '0';
+        s_k     <=  '0';
+        wait for 10ns;
+        assert (s_q = 'U' and s_q_bar = 'U') report "Error 1" severity note;
+        s_j     <=  '0';
+        s_k     <=  '1';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 2" severity note;
+        s_j     <=  '1';
+        s_k     <=  '0';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 3" severity note;
+        s_j     <=  '1';
+        s_k     <=  '1';
+        wait for 20ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 4" severity note;
+        
+        s_j     <=  '0';
+        s_k     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 5" severity note;
+        s_j     <=  '1';
+        s_k     <=  '1';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 6" severity note;
+               
+        report "Stimulus process ended." severity note;
+        wait;
+    end process p_stimulus;
+```
+reset and stimulus processes tb_t_ff_rst
+``` VHDL
+       p_reset_gen : process
+  
+    begin
+        s_rst <= '0';                 
+        wait for 40 ns;
+        s_rst <= '1';                 
+        wait for 50 ns;
+        s_rst <= '0';                 
+        wait;
+  end process p_reset_gen;
+       
+       p_stimulus : process
+   
+    begin
+        -- Report a note at the begining of stimulus process
+        report "Stimulus process started." severity note;
+       s_t     <=  '0';
+        wait for 10ns;
+        assert (s_q = 'U' and s_q_bar = 'U') report "Error 1" severity note;
+        
+        s_t     <=  '1';
+        wait for 10ns;
+        assert (s_q = 'U' and s_q_bar = 'U') report "Error 2" severity note;
+        
+        s_t     <=  '0';
+        wait for 10ns;
+        assert (s_q = 'U' and s_q_bar = 'U') report "Error 3" severity note;
+       
+        s_t     <=  '1';
+        wait for 10ns;
+        assert (s_q = 'U' and s_q_bar = 'U') report "Error 4" severity note;
+           
+       
+        ----------------------  Reset activated  -------------------------
+        
+        s_t     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 7" severity note;
+        
+        s_t     <=  '1';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 8" severity note;
+        
+        s_t     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 9" severity note;
+       
+        s_t     <=  '1';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 10" severity note;
+           
+        s_t     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 11" severity note;
+        
+        
+        ----------------------------  Reset deactivated  --------------------------
+        
+        s_t     <=  '1';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 14" severity note;
+        
+        s_t     <=  '0';
+        wait for 10ns;
+        assert (s_q = '1' and s_q_bar = '0') report "Error 15" severity note;
+       
+        s_t     <=  '1';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 16" severity note;
+           
+        s_t     <=  '0';
+        wait for 10ns;
+        assert (s_q = '0' and s_q_bar = '1') report "Error 17" severity note;
+     
+        report "Stimulus process ended." severity note;
+        wait;
+   end process p_stimulus;
+
+```
 ### 3.3 Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
 
+tb_d_ff_arst
+<img src="  " />
 
+tb_d_ff_rst
+<img src="  " />
+
+tb_jk_ff_rst
+<img src="  " />
+
+tb_t_ff_rst
 <img src="  " />
 
 ## 4- Shift register. Submit:
