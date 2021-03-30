@@ -252,7 +252,7 @@ p_clk_gen : process
     end process p_clk_gen;
 ```   
 
-reset and stimulus processes  tb_d_ff_arst
+#### reset and stimulus processes  tb_d_ff_arst
 ``` VHDL
      p_reset_gen : process
     begin
@@ -340,7 +340,7 @@ reset and stimulus processes  tb_d_ff_arst
     end process p_stimulus;
 
 ```
-reset and stimulus processes  tb_d_ff_rst
+#### reset and stimulus processes  tb_d_ff_rst
 ``` VHDL
  p_reset_gen : process
   
@@ -436,7 +436,7 @@ reset and stimulus processes  tb_d_ff_rst
    end process p_stimulus;
 ```
 
-reset and stimulus processes tb_jk_ff_rst
+#### reset and stimulus processes tb_jk_ff_rst
 ``` VHDL
     p_reset_gen : process
     begin
@@ -483,7 +483,7 @@ reset and stimulus processes tb_jk_ff_rst
         wait;
     end process p_stimulus;
 ```
-reset and stimulus processes tb_t_ff_rst
+#### reset and stimulus processes tb_t_ff_rst
 ``` VHDL
        p_reset_gen : process
   
