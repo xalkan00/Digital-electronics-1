@@ -3,7 +3,7 @@
 
 ## 1- Preparation tasks (done before the lab at home). Submit:
 ### 1.1 Characteristic equations and completed tables for D, JK, T flip-flops.
-
+ <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/D_ff.png" />
    | **D** | **Qn** | **Q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-- |
    | 0 | 0 | 0 | No change |
@@ -11,6 +11,7 @@
    | 1 | 0 | 0 | Reset |
    | 1 | 1 | 1 | Set |
 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/JK_ff.png" />
    | **J** | **K** | **Qn** | **Q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | 0 | 0 | 0 | 0 | No change |
@@ -22,6 +23,7 @@
    | 1 | 1 | 0 | 1 | Toggle |
    | 1 | 1 | 1 | 0 | Toggle |
 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/T_ff.png" />
    | **T** | **Qn** | **Q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-- |
    | 0 | 0 | 0 | No change |
@@ -145,7 +147,7 @@ p_reset_gen : process
 ```
 ### 2.3 Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified.
 
-<img src="  " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/D-Latch.png" />
 
 ## 3- Flip-flops. Submit:
 
@@ -567,19 +569,19 @@ p_clk_gen : process
 ### 3.3 Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entities must be verified.
 
 tb_d_ff_arst
-<img src="  " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/arst.png" />
 
 tb_d_ff_rst
-<img src="  " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/rst.png" />
 
 tb_jk_ff_rst
-<img src="  " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/jk.png" />
 
 tb_t_ff_rst
-<img src="  " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/t.png" />
 
 ## 4- Shift register. Submit:
 
 ### 4.1 Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals.
 
-<img src=" " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/tgjjj.png" />
