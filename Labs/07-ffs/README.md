@@ -4,6 +4,7 @@
 ## 1- Preparation tasks (done before the lab at home). Submit:
 ### 1.1 Characteristic equations and completed tables for D, JK, T flip-flops.
  <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/D_ff.png" />
+ 
    | **D** | **Qn** | **Q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-- |
    | 0 | 0 | 0 | No change |
@@ -12,6 +13,7 @@
    | 1 | 1 | 1 | Set |
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/JK_ff.png" />
+
    | **J** | **K** | **Qn** | **Q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | 0 | 0 | 0 | 0 | No change |
@@ -24,6 +26,7 @@
    | 1 | 1 | 1 | 0 | Toggle |
 
 <img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/07-ffs/Image/T_ff.png" />
+
    | **T** | **Qn** | **Q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-- |
    | 0 | 0 | 0 | No change |
