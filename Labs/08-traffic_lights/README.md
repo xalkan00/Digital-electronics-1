@@ -20,16 +20,18 @@
 
 
 ## 2-Traffic light controller. Submit:
+### 2.1 State diagram,
+<img src="   " />
 
-### 2.1 Listing of VHDL code of sequential process p_traffic_fsm with syntax highlighting,
+### 2.2 Listing of VHDL code of sequential process p_traffic_fsm with syntax highlighting,
 ``` VHDL
 
 ```
-### 2.2 Listing of VHDL code of combinatorial process p_output_fsm with syntax highlighting,
+### 2.3 Listing of VHDL code of combinatorial process p_output_fsm with syntax highlighting,
 ``` VHDL
 
 ```
-### 2.3 Screenshot(s) of the simulation, from which it is clear that controller works correctly.
+### 2.4 Screenshot(s) of the simulation, from which it is clear that controller works correctly.
 
 <img src="   " />
 
