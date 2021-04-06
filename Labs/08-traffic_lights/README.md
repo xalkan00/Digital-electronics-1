@@ -142,7 +142,14 @@ p_output_fsm : process(s_state)
 
 ### 3.1 State table,
 
-<img src="   " />
+| **> Next state<br />v Current state** | No cars <br />west = 0, east = 0 | Cars from west<br />west = 1, east = 0 | Cars from east<br />west = 0, east = 1 | Cars from both<br />west = 1, east = 1 |
+| :-- | :-: | :-: | :-: | :-: |
+| **`STOP1`**  | `WEST_GO` | `WEST_GO` | `SOUTH_GO` | `WEST_GO` |
+| **`WEST_GO`** | `WEST_WAIT` | ``WEST_GO`` | `WEST_WAIT` | ``WEST_GO`` |
+| **`WEST_WAIT`** | ``STOP2`` | `STOP2` | ``STOP2`` | ``STOP2`` |
+| **`STOP2`**  | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | ``SOUTH_GO`` |
+| **`SOUTH_GO`** | `SOUTH_WAIT` | `SOUTH_WAIT` | `SOUTH_GO` | ```SOUTH_GO``` |
+| **`SOUTH_WAIT`** | `STOP1` | `STOP1` | `STOP1` | ``STOP1`` |
 
 ### 3.2 State diagram,
 
