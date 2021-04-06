@@ -18,10 +18,12 @@
 | LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
 | LD17 | N16, R11, G14 | `1,0,0` | `1,1,0` | `0,1,0` |
 
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/08-traffic_lights/Image/Snímek%20obrazovky%202021-04-06%20141113.png" />
+
 
 ## 2-Traffic light controller. Submit:
 ### 2.1 State diagram,
-<img src="   " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/08-traffic_lights/Image/Skener_20210406.png" />
 
 ### 2.2 Listing of VHDL code of sequential process p_traffic_fsm with syntax highlighting,
 ``` VHDL
@@ -136,7 +138,7 @@ p_output_fsm : process(s_state)
 ```
 ### 2.4 Screenshot(s) of the simulation, from which it is clear that controller works correctly.
 
-<img src="   " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/08-traffic_lights/Image/Snímek%20obrazovky%202021-04-06%20133824.png" />
 
 ## 3-Smart controller. Submit:
 
@@ -153,7 +155,7 @@ p_output_fsm : process(s_state)
 
 ### 3.2 State diagram,
 
-<img src="   " />
+<img src="https://github.com/xalkan00/Digital-electronics-1/blob/main/Labs/08-traffic_lights/Image/Skener_20210406%20(2).png" />
 
 ### 3.3 Listing of VHDL code of sequential process p_smart_traffic_fsm with syntax highlighting.
 
