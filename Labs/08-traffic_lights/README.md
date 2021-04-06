@@ -144,14 +144,14 @@ p_output_fsm : process(s_state)
 
 ### 3.1 State table,
 
-| **  state ** | No cars <br />west, east <br /> 00  | Cars to west<br />west, east  <br /> 10 | Cars to east<br />west, east  <br /> 01 | Cars to both<br />west, east <br /> 11 |
+| **  state ** | No cars <br />west, east <br /> 00  | Cars to west<br />west, east  <br /> 10 | Cars to east<br />west, east  <br /> 01 | Cars both Directions <br />west, east <br /> 11 |
 | :-- | :-: | :-: | :-: | :-: |
 | **`STOP1`**  | `WEST_GO` | `WEST_GO` | `SOUTH_GO` | `WEST_GO` |
-| **`WEST_GO`** | `WEST_WAIT` | ``WEST_GO`` | `WEST_WAIT` | ``WEST_GO`` |
-| **`WEST_WAIT`** | ``STOP2`` | `STOP2` | ``STOP2`` | ``STOP2`` |
-| **`STOP2`**  | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | ``SOUTH_GO`` |
-| **`SOUTH_GO`** | `SOUTH_WAIT` | `SOUTH_WAIT` | `SOUTH_GO` | ```SOUTH_GO``` |
-| **`SOUTH_WAIT`** | `STOP1` | `STOP1` | `STOP1` | ``STOP1`` |
+| **`WEST_GO`** | `WEST_WAIT` | `WEST_GO` | `WEST_WAIT` | `WEST_GO` |
+| **`WEST_WAIT`** | `STOP2` | `STOP2` | `STOP2` | `STOP2` |
+| **`STOP2`**  | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` | `SOUTH_GO` |
+| **`SOUTH_GO`** | `SOUTH_WAIT` | `SOUTH_WAIT` | `SOUTH_GO` | `SOUTH_GO` |
+| **`SOUTH_WAIT`** | `STOP1` | `STOP1` | `STOP1` | `STOP1` |
 
 ### 3.2 State diagram,
 
